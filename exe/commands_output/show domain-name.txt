@@ -1,3 +1,0 @@
-`show domain-name`
-Domain:
-`scope license`

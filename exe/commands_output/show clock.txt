@@ -1,2 +1,0 @@
-`show clock`
-Fri Jan 27 18:21:38 CET 2023

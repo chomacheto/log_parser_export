@@ -1,2 +1,0 @@
-`show timezone`
-Timezone: Europe/Paris

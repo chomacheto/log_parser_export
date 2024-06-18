@@ -1,6 +1,0 @@
-`show power-group`
-
-Group:
-    Name       Input Power (W) OperState
-    ---------- --------------- ---------
-    default    Unbounded       Cap Ok
