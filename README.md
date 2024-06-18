@@ -41,7 +41,7 @@ This project consists of a log parsing script, a check server status script, and
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/chomacheto/ucs_log_parser.git
+    git clone https://github.com/chomacheto/log_parser_export.git
     ```
 
 2. Done
@@ -68,7 +68,7 @@ This project consists of a log parsing script, a check server status script, and
 
 ## Directory Structure
 
-ucs_log_parser/
+log_parser/
 ├── commands_output/ # Directory for storing parsed log outputs will be created when the file is parsed
 ├── sam_techsupportinfo # Input log file to be parsed must be pasted here
 ├── main.py # Combined script for log parsing, server status checking, and GUI
