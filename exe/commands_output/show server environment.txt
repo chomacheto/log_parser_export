@@ -1,0 +1,50 @@
+`show server environment`
+Server 1/1:
+    Overall Status: Inoperable
+    Operability: Operable
+    Oper Power: Off
+
+Server 1/2:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 1/3:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 1/7:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 2/1:
+    Overall Status: Inoperable
+    Operability: Operable
+    Oper Power: Off
+
+Server 2/2:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 2/3:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 2/4:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 1:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 3:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off

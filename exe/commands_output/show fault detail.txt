@@ -1,0 +1,2739 @@
+`show fault detail`
+Fault Instance
+
+Severity: Major
+Code: F0314
+Last Transition Time: 2023-01-27T18:14:31.492
+ID: 21337879
+Status: None
+Description: Server 2/1 (service profile: ) discovery: failed
+Affected Object: sys/chassis-2/blade-1
+Name: Compute Physical Discovery Failed
+Cause: Discovery Failed
+Type: Operational
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2023-01-27T18:14:31.492
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Major
+Code: F0314
+Last Transition Time: 2023-01-27T18:13:11.492
+ID: 21337867
+Status: None
+Description: Server 1/1 (service profile: ) discovery: failed
+Affected Object: sys/chassis-1/blade-1
+Name: Compute Physical Discovery Failed
+Cause: Discovery Failed
+Type: Operational
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2023-01-27T18:13:11.492
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Warning
+Code: F16520
+Last Transition Time: 2023-01-27T17:52:21.492
+ID: 21337677
+Status: None
+Description: [FSM:STAGE:FAILED]: getting inventory of server 2/1 via CIMC(FSM-STAGE:sam:dme:ComputeBladeDiscover:BmcInventory)
+Affected Object: sys/chassis-2/blade-1
+Name: Fsm Sam Dme Compute Blade Discover
+Cause: Bmc Inventory Failed
+Type: Fsm
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2023-01-27T17:52:21.492
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F16520
+Last Transition Time: 2023-01-27T17:51:01.491
+ID: 21337659
+Status: None
+Description: [FSM:STAGE:FAILED]: getting inventory of server 1/1 via CIMC(FSM-STAGE:sam:dme:ComputeBladeDiscover:BmcInventory)
+Affected Object: sys/chassis-1/blade-1
+Name: Fsm Sam Dme Compute Blade Discover
+Cause: Bmc Inventory Failed
+Type: Fsm
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2023-01-27T17:51:01.491
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2022-09-16T20:51:49.558
+ID: 20406715
+Status: None
+Description: fc port 1/31 on fabric interconnect A oper state: sfp-not-present
+Affected Object: sys/switch-A/slot-1/switch-fc/port-31
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-09-16T20:51:49.558
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2022-09-16T19:48:13.775
+ID: 20406358
+Status: None
+Description: fc port 1/31 on fabric interconnect B oper state: sfp-not-present
+Affected Object: sys/switch-B/slot-1/switch-fc/port-31
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-09-16T19:48:13.775
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0461
+Last Transition Time: 2022-08-19T08:02:10.030
+ID: 20163688
+Status: None
+Description: Log capacity on Management Controller on server 1/7 is very-low
+Affected Object: sys/chassis-1/blade-7/ext-board-2/mgmt/log-SEL-0
+Name: Sysdebug Mep Log M Ep Log Very Low
+Cause: Log Capacity
+Type: Operational
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-08-19T08:02:10.030
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2022-08-17T07:21:44.262
+ID: 20092647
+Status: None
+Description: Service profile B-Series-ESX-B200M2 is not associated
+Affected Object: org-root/ls-B-Series-ESX-B200M2
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-08-17T07:21:44.262
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Critical
+Code: F999560
+Last Transition Time: 2022-05-16T18:13:54.600
+ID: 19146626
+Status: None
+Description: [FSM:FAILED]: blade discovery 2/1(FSM:sam:dme:ComputeBladeDiscover). Remote-Invocation-Error: No adapters present
+Affected Object: sys/chassis-2/blade-1
+Name: Fsm Sam Dme Compute Blade Discover Fsm Fail
+Cause: Fsm Failed
+Type: Fsm
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-05-16T18:13:54.600
+Original Severity: Critical
+Previous Severity: Critical
+Highest Severity: Critical
+
+Severity: Major
+Code: F1753
+Last Transition Time: 2022-05-16T17:50:42.549
+ID: 19145133
+Status: None
+Description: Adapter 1 in server 2/1 may be deprecated or not supported.
+Affected Object: sys/chassis-2/blade-1/adaptor-1
+Name: Adaptor Unit Deprecated
+Cause: Deprecated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-05-16T17:50:42.549
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Info
+Code: F0461
+Last Transition Time: 2022-05-16T17:50:42.549
+ID: 19145134
+Status: None
+Description: Log capacity on Management Controller on server 2/1 is very-low
+Affected Object: sys/chassis-2/blade-1/mgmt/log-SEL-0
+Name: Sysdebug Mep Log M Ep Log Very Low
+Cause: Log Capacity
+Type: Operational
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-05-16T17:50:42.549
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Major
+Code: F0200
+Last Transition Time: 2022-05-16T17:50:42.548
+ID: 19145132
+Status: None
+Description: Adapter 1 in server 2/1 has unidentified FRU.
+Affected Object: sys/chassis-2/blade-1/adaptor-1
+Name: Adaptor Unit Unidentifiable Fru
+Cause: Unidentifiable Fru
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-05-16T17:50:42.548
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Warning
+Code: F0378
+Last Transition Time: 2022-05-16T17:50:16.568
+ID: 19144343
+Status: None
+Description: Power supply 4 in chassis 2 presence: missing
+Affected Object: sys/chassis-2/psu-4
+Name: Equipment Psu Missing
+Cause: Equipment Missing
+Type: Equipment
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-05-16T17:50:16.568
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2022-03-18T16:51:38.149
+ID: 18519468
+Status: None
+Description: Service profile rack-unit-2 is not associated
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-18T16:51:38.149
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.687
+ID: 18502744
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.687
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.686
+ID: 18502743
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.686
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.686
+ID: 18502742
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.686
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.685
+ID: 18502740
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.685
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.685
+ID: 18502741
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.685
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.684
+ID: 18502738
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.684
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.684
+ID: 18502739
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.684
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.683
+ID: 18502737
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.683
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.683
+ID: 18502736
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.683
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.682
+ID: 18502735
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.682
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.682
+ID: 18502734
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.682
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.681
+ID: 18502732
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.681
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.681
+ID: 18502733
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.681
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.680
+ID: 18502730
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.680
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.680
+ID: 18502731
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.680
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.679
+ID: 18502728
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.679
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.679
+ID: 18502729
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-hx-nodes-m5/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.679
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.678
+ID: 18502727
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.678
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.678
+ID: 18502726
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.678
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.677
+ID: 18502724
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.677
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.677
+ID: 18502725
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.677
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.676
+ID: 18502722
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.676
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.676
+ID: 18502723
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.676
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.675
+ID: 18502721
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.675
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.675
+ID: 18502720
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.675
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.674
+ID: 18502719
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.674
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.673
+ID: 18502718
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.673
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.673
+ID: 18502717
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.673
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.672
+ID: 18502716
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.672
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.672
+ID: 18502715
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.672
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.671
+ID: 18502714
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.671
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.671
+ID: 18502713
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-compute-nodes-m5/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.671
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.670
+ID: 18502712
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.670
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.670
+ID: 18502711
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.670
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.669
+ID: 18502710
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.669
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.668
+ID: 18502708
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.668
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.668
+ID: 18502709
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.668
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.667
+ID: 18502706
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.667
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.667
+ID: 18502707
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.667
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.666
+ID: 18502705
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.666
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.666
+ID: 18502704
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.666
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.665
+ID: 18502703
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.665
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.665
+ID: 18502702
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.665
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.664
+ID: 18502700
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.664
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.664
+ID: 18502701
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.664
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.663
+ID: 18502698
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.663
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.663
+ID: 18502699
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.663
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.662
+ID: 18502696
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.662
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.662
+ID: 18502697
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-hx-nodes-m5/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.662
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.661
+ID: 18502695
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.661
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.660
+ID: 18502694
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.660
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.660
+ID: 18502693
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.660
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.659
+ID: 18502692
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.659
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.659
+ID: 18502691
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.659
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.658
+ID: 18502690
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.658
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.658
+ID: 18502689
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.658
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.657
+ID: 18502688
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.657
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.657
+ID: 18502687
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.657
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.656
+ID: 18502686
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.656
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.656
+ID: 18502685
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.656
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.655
+ID: 18502684
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.655
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.654
+ID: 18502682
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.654
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.654
+ID: 18502683
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.654
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2022-03-17T16:15:32.653
+ID: 18502681
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-compute-nodes-m5/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2022-03-17T16:15:32.653
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2021-11-24T15:19:21.959
+ID: 17676132
+Status: None
+Description: Service profile B-Series-ESX-B200M4 is not associated
+Affected Object: org-root/ls-B-Series-ESX-B200M4
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-11-24T15:19:21.959
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Critical
+Code: F999560
+Last Transition Time: 2021-10-22T12:35:25.933
+ID: 17436406
+Status: None
+Description: [FSM:FAILED]: blade discovery 1/1(FSM:sam:dme:ComputeBladeDiscover). Remote-Invocation-Error: No adapters present
+Affected Object: sys/chassis-1/blade-1
+Name: Fsm Sam Dme Compute Blade Discover Fsm Fail
+Cause: Fsm Failed
+Type: Fsm
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-22T12:35:25.933
+Original Severity: Critical
+Previous Severity: Critical
+Highest Severity: Critical
+
+Severity: Major
+Code: F1753
+Last Transition Time: 2021-10-22T12:12:10.345
+ID: 17435940
+Status: None
+Description: Adapter 1 in server 1/1 may be deprecated or not supported.
+Affected Object: sys/chassis-1/blade-1/adaptor-1
+Name: Adaptor Unit Deprecated
+Cause: Deprecated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-22T12:12:10.345
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Major
+Code: F0200
+Last Transition Time: 2021-10-22T12:12:10.344
+ID: 17435939
+Status: None
+Description: Adapter 1 in server 1/1 has unidentified FRU.
+Affected Object: sys/chassis-1/blade-1/adaptor-1
+Name: Adaptor Unit Unidentifiable Fru
+Cause: Unidentifiable Fru
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-22T12:12:10.344
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.469
+ID: 17394022
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.469
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.469
+ID: 17394021
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.469
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.468
+ID: 17394020
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.468
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.468
+ID: 17394019
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.468
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.467
+ID: 17394018
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.467
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.467
+ID: 17394017
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.467
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.466
+ID: 17394016
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.466
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.465
+ID: 17394014
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.465
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.465
+ID: 17394015
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.465
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.464
+ID: 17394013
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.464
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.463
+ID: 17394012
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-hv-vmotion-a/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.463
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:34.463
+ID: 17394011
+Status: None
+Description: The named vlan hx-vmotion for vNIC hv-vmotion-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-hv-vmotion-b/if-hx-vmotion
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:34.463
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.520
+ID: 17393642
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.520
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.520
+ID: 17393641
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.520
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.519
+ID: 17393640
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.519
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.519
+ID: 17393639
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.519
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.518
+ID: 17393638
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.518
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.518
+ID: 17393637
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.518
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.517
+ID: 17393636
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.517
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.516
+ID: 17393634
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.516
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.516
+ID: 17393635
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.516
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.515
+ID: 17393632
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-storage-data-a/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.515
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.515
+ID: 17393633
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.515
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:27.514
+ID: 17393631
+Status: None
+Description: The named vlan hx-storage-data for vNIC storage-data-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-storage-data-b/if-hx-storage-data
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:27.514
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.913
+ID: 17393263
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.913
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.913
+ID: 17393262
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.913
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.912
+ID: 17393261
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.912
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.912
+ID: 17393260
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.912
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.911
+ID: 17393259
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.911
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.911
+ID: 17393258
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.911
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.910
+ID: 17393257
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.910
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.909
+ID: 17393256
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.909
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.908
+ID: 17393255
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.908
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.908
+ID: 17393254
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.908
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.907
+ID: 17393253
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-hv-mgmt-a/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.907
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:21.907
+ID: 17393252
+Status: None
+Description: The named vlan hx-inband-mgmt for vNIC hv-mgmt-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-hv-mgmt-b/if-hx-inband-mgmt
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:21.907
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.587
+ID: 17392878
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.587
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.587
+ID: 17392877
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.587
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.586
+ID: 17392876
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.586
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.586
+ID: 17392875
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-2/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.586
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.585
+ID: 17392874
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.585
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.585
+ID: 17392873
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.585
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.584
+ID: 17392872
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.584
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.583
+ID: 17392870
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.583
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.583
+ID: 17392871
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.583
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.582
+ID: 17392868
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-a cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-vm-network-a/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.582
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.582
+ID: 17392869
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.582
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0933
+Last Transition Time: 2021-10-15T18:38:09.581
+ID: 17392867
+Status: None
+Description: The named vlan vm-network for vNIC vm-network-b cannot be resolved
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1/ether-vm-network-b/if-vm-network
+Name: Vnic Ether If Vlan Unresolvable
+Cause: Referenced Vlan Unresolvable
+Type: Configuration
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-10-15T18:38:09.581
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0378
+Last Transition Time: 2021-08-26T15:16:08.784
+ID: 17034966
+Status: None
+Description: Power supply 2 in server 1 presence: missing
+Affected Object: sys/rack-unit-1/psu-2
+Name: Equipment Psu Missing
+Cause: Equipment Missing
+Type: Equipment
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-08-26T15:16:08.784
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2021-07-30T14:11:09.513
+ID: 16842139
+Status: None
+Description: Service profile B-Series-ESX-B420M4 is not associated
+Affected Object: org-root/ls-B-Series-ESX-B420M4
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-07-30T14:11:09.513
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Major
+Code: F0909
+Last Transition Time: 2021-05-21T08:43:03.097
+ID: 16425550
+Status: None
+Description: default Keyring's certificate is invalid, reason: expired.
+Affected Object: sys/pki-ext/keyring-default
+Name: Pki Key Ring Status
+Cause: Invalid Keyring Certificate
+Type: Security
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-05-21T08:43:03.097
+Original Severity: Major
+Previous Severity: Major
+Highest Severity: Major
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.357
+ID: 16307097
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-C-Series-ESX-HOST
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.357
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.356
+ID: 16307095
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-B-Series-ESX-B200M2
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.356
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.356
+ID: 16307096
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-B-Series-ESX-EXM42
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.356
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.355
+ID: 16307094
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-B-Series-ESX-B200M4
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.355
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.354
+ID: 16307092
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-B-Series-ESX-B420M4
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.354
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.354
+ID: 16307093
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-C-Series-ESX-C460M4
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.354
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.353
+ID: 16307091
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-C-Series-ESX-C220M4S
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.353
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F4528596
+Last Transition Time: 2021-04-26T19:33:16.353
+ID: 16307090
+Status: None
+Description: Policy reference maintPolicyName User-Ack does not resolve to named policy
+Affected Object: org-root/ls-C-Series-ESX-C240M4SX
+Name: Unr Ls Server Maint Policy Name
+Cause: Named Policy Unresolved
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2021-04-26T19:33:16.353
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2020-11-18T11:49:03.245
+ID: 15632545
+Status: None
+Description: ether port 1/17 on fabric interconnect A oper state: sfp-not-present
+Affected Object: sys/switch-A/slot-1/switch-ether/port-17
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-11-18T11:49:03.245
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-10-16T14:11:54.116
+ID: 15451115
+Status: None
+Description: Service profile B-Series-ESX-EXM42 is not associated
+Affected Object: org-root/ls-B-Series-ESX-EXM42
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-10-16T14:11:54.116
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-10-16T14:09:33.124
+ID: 15450253
+Status: None
+Description: Service profile rack-unit-3 is not associated
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-3
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-10-16T14:09:33.124
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-10-16T14:09:12.071
+ID: 15449799
+Status: None
+Description: Service profile rack-unit-1 is not associated
+Affected Object: org-root/org-dcnlab.local/ls-rack-unit-1
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-10-16T14:09:12.071
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0378
+Last Transition Time: 2020-06-23T07:45:10.171
+ID: 14997728
+Status: None
+Description: Power supply 2 in server 3 presence: missing
+Affected Object: sys/rack-unit-3/psu-2
+Name: Equipment Psu Missing
+Cause: Equipment Missing
+Type: Equipment
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-06-23T07:45:10.171
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-03-03T15:30:43.156
+ID: 14551760
+Status: None
+Description: Service profile rack-unit-3 is not associated
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-3
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-03-03T15:30:43.156
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-03-03T15:30:28.897
+ID: 14551500
+Status: None
+Description: Service profile rack-unit-2 is not associated
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-2
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-03-03T15:30:28.897
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-03-03T15:30:02.517
+ID: 14551265
+Status: None
+Description: Service profile rack-unit-1 is not associated
+Affected Object: org-root/org-HyperFlex-A/ls-rack-unit-1
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-03-03T15:30:02.517
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2020-03-03T08:13:56.912
+ID: 14532599
+Status: None
+Description: Service profile C-Series-ESX-C240M4SX is not associated
+Affected Object: org-root/ls-C-Series-ESX-C240M4SX
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-03-03T08:13:56.912
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2020-03-02T15:22:52.052
+ID: 14526639
+Status: None
+Description: ether port 1/22 on fabric interconnect A oper state: sfp-not-present
+Affected Object: sys/switch-A/slot-1/switch-ether/port-22
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-03-02T15:22:52.052
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2020-02-17T10:54:27.398
+ID: 14233520
+Status: None
+Description: ether port 1/22 on fabric interconnect B oper state: sfp-not-present
+Affected Object: sys/switch-B/slot-1/switch-ether/port-22
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2020-02-17T10:54:27.398
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2019-12-05T10:53:08.512
+ID: 13746155
+Status: None
+Description: ether port 1/23 on fabric interconnect B oper state: sfp-not-present
+Affected Object: sys/switch-B/slot-1/switch-ether/port-23
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2019-12-05T10:53:08.512
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0279
+Last Transition Time: 2019-12-05T10:48:10.191
+ID: 13746076
+Status: None
+Description: ether port 1/23 on fabric interconnect A oper state: sfp-not-present
+Affected Object: sys/switch-A/slot-1/switch-ether/port-23
+Name: Port Pio Sfp Not Present
+Cause: Port Failed
+Type: Network
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2019-12-05T10:48:10.191
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F1256
+Last Transition Time: 2019-12-04T11:18:21.675
+ID: 13739834
+Status: None
+Description: Local disk 4 missing on server 1/7
+Affected Object: sys/chassis-1/blade-7/board/storage-SAS-4/disk-4
+Name: Storage Local Disk Missing
+Cause: Equipment Missing
+Type: Equipment
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2019-12-04T11:18:21.675
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F1256
+Last Transition Time: 2019-12-04T11:18:21.674
+ID: 13739833
+Status: None
+Description: Local disk 3 missing on server 1/7
+Affected Object: sys/chassis-1/blade-7/board/storage-SAS-4/disk-3
+Name: Storage Local Disk Missing
+Cause: Equipment Missing
+Type: Equipment
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2019-12-04T11:18:21.674
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0461
+Last Transition Time: 2019-12-04T11:12:33.344
+ID: 13739401
+Status: None
+Description: Log capacity on Management Controller on server 1/7 is very-low
+Affected Object: sys/chassis-1/blade-7/ext-board-1/mgmt/log-SEL-0
+Name: Sysdebug Mep Log M Ep Log Very Low
+Cause: Log Capacity
+Type: Operational
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2019-12-04T11:12:33.344
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Info
+Code: F0461
+Last Transition Time: 2019-12-04T11:12:33.343
+ID: 13739400
+Status: None
+Description: Log capacity on Management Controller on server 1/7 is very-low
+Affected Object: sys/chassis-1/blade-7/mgmt/log-SEL-0
+Name: Sysdebug Mep Log M Ep Log Very Low
+Cause: Log Capacity
+Type: Operational
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2019-12-04T11:12:33.343
+Original Severity: Info
+Previous Severity: Info
+Highest Severity: Info
+
+Severity: Warning
+Code: F0378
+Last Transition Time: 2018-11-22T13:01:19.820
+ID: 3911248
+Status: None
+Description: Power supply 4 in chassis 1 presence: missing
+Affected Object: sys/chassis-1/psu-4
+Name: Equipment Psu Missing
+Cause: Equipment Missing
+Type: Equipment
+Acknowledged: Yes
+Occurrences: 1
+Creation Time: 2018-11-22T13:01:19.820
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2018-07-10T08:47:28.225
+ID: 3092511
+Status: None
+Description: Service profile C-Series-ESX-C220M4S is not associated
+Affected Object: org-root/ls-C-Series-ESX-C220M4S
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2018-07-10T08:47:28.225
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning
+
+Severity: Warning
+Code: F0334
+Last Transition Time: 2018-06-07T14:41:08.449
+ID: 2962081
+Status: None
+Description: Service profile C-Series-ESX-C460M4 is not associated
+Affected Object: org-root/ls-C-Series-ESX-C460M4
+Name: Ls Server Unassociated
+Cause: Unassociated
+Type: Server
+Acknowledged: No
+Occurrences: 1
+Creation Time: 2018-06-07T14:41:08.449
+Original Severity: Warning
+Previous Severity: Warning
+Highest Severity: Warning

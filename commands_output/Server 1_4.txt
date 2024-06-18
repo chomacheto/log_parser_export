@@ -1,0 +1,32 @@
+`show server inventory expand`
+Server 1/4:
+    Equipped Product Name:
+    Equipped PID:
+    Equipped VID:
+    Equipped Serial (SN):
+    Slot Status: Equipped Not Primary
+    Acknowledged Product Name:
+    Acknowledged PID:
+    Acknowledged VID:
+    Acknowledged Serial (SN):
+    Acknowledged Memory (MB):
+    Acknowledged Effective Memory (MB):
+    Acknowledged Cores:
+    Acknowledged Adapters:
+
+
+`show server status detail`
+Server 1/4:
+    Slot Status: Equipped Not Primary
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+

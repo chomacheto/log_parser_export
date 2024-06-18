@@ -1,0 +1,40 @@
+`show server health status detail`
+Server 1/1:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 1/2:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 1/3:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 1/7:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 2/1:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 2/2:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 2/3:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 2/4:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 1:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 3:
+    Health status severity: Cleared
+    Health status qualifier:

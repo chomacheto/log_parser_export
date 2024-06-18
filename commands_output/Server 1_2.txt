@@ -1,0 +1,728 @@
+`show server inventory expand`
+Server 1/2:
+    Equipped Product Name: Cisco UCS B200 M4
+    Equipped PID: UCSB-B200-M4
+    Equipped VID: V02
+    Equipped Serial (SN): FCH2028J7YB
+    Slot Status: Equipped
+    Acknowledged Product Name: Cisco UCS B200 M4
+    Acknowledged PID: UCSB-B200-M4
+    Acknowledged VID: V02
+    Acknowledged Serial (SN): FCH2028J7YB
+    Acknowledged Memory (MB): 163840
+    Acknowledged Effective Memory (MB): 163840
+    Acknowledged Cores: 16
+    Acknowledged Adapters: 1
+
+    Bios:
+        Model: UCSB-B200-M4
+        Revision: 0
+        Serial:
+        Vendor: Cisco Systems, Inc.
+
+    Motherboard:
+        Product Name: Cisco UCS B200 M4
+        PID: UCSB-B200-M4
+        VID: V01
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH2028J7YB
+        HW Revision: 0
+
+        Array 1:
+            DIMM Location   Presence         Overall Status           Type         Capacity (MB) Clock
+            ---- ---------- ---------------- ------------------------ ------------ ------------- -----
+               1 A1         Equipped         Operable                 DDR4         16384         2400
+               2 A2         Equipped         Operable                 DDR4         16384         2400
+               3 A3         Missing          Removed                  Undisc       Unknown       Unknown
+               4 B1         Equipped         Operable                 DDR4         16384         2400
+               5 B2         Missing          Removed                  Undisc       Unknown       Unknown
+               6 B3         Missing          Removed                  Undisc       Unknown       Unknown
+               7 C1         Equipped         Operable                 DDR4         16384         2400
+               8 C2         Missing          Removed                  Undisc       Unknown       Unknown
+               9 C3         Missing          Removed                  Undisc       Unknown       Unknown
+              10 D1         Equipped         Operable                 DDR4         16384         2400
+              11 D2         Missing          Removed                  Undisc       Unknown       Unknown
+              12 D3         Missing          Removed                  Undisc       Unknown       Unknown
+              13 E1         Equipped         Operable                 DDR4         16384         2400
+              14 E2         Equipped         Operable                 DDR4         16384         2400
+              15 E3         Missing          Removed                  Undisc       Unknown       Unknown
+              16 F1         Equipped         Operable                 DDR4         16384         2400
+              17 F2         Missing          Removed                  Undisc       Unknown       Unknown
+              18 F3         Missing          Removed                  Undisc       Unknown       Unknown
+              19 G1         Equipped         Operable                 DDR4         16384         2400
+              20 G2         Missing          Removed                  Undisc       Unknown       Unknown
+              21 G3         Missing          Removed                  Undisc       Unknown       Unknown
+              22 H1         Equipped         Operable                 DDR4         16384         2400
+              23 H2         Missing          Removed                  Undisc       Unknown       Unknown
+              24 H3         Missing          Removed                  Undisc       Unknown       Unknown
+
+        CPUs:
+            ID: 1
+            Presence: Equipped
+            Architecture: Xeon
+            Socket: CPU1
+            Cores: 8
+            Speed (GHz): 1.700000
+            Stepping: 1
+            Product Name: Intel(R) Xeon(R) E5-2609 v4
+            PID: UCS-CPU-E52609E
+            VID: V01
+            Vendor: Intel(R) Corporation
+            HW Revision: 0
+
+            ID: 2
+            Presence: Equipped
+            Architecture: Xeon
+            Socket: CPU2
+            Cores: 8
+            Speed (GHz): 1.700000
+            Stepping: 1
+            Product Name: Intel(R) Xeon(R) E5-2609 v4
+            PID: UCS-CPU-E52609E
+            VID: V01
+            Vendor: Intel(R) Corporation
+            HW Revision: 0
+
+        RAID Controller 1:
+            Type: SAS
+            Vendor: Cisco Systems Inc
+            Model: UCSB-MRAID12G
+            Serial: LSV203101NT
+            HW Revision: C0
+            PCI Addr: 01:00.0
+            Raid Support: RAID0, RAID1, RAID10
+            JBOD Mode: Enabled
+            OOB Interface Supported: Yes
+            Rebuild Rate: 30
+            Controller Status: Optimal
+
+            Pinned Cache Status: Disabled
+            Mode: Unknown
+            Sub OEM ID: 0
+            Supported Strip Sizes: Unknown
+            Default Strip Size: Unknown
+            PCI Slot: SAS
+            On Board Memory Present: No
+            On Board Memory Size (MB): Unknown
+            Supported Controller Operations: Unknown
+            Supported Disk Operations: Unknown
+            Supported Virtual Drive Operations: Unknown
+            Supported RAID Battery Operations: Unknown
+
+            Local Disk 1:
+                Product Name: 300GB 12G SAS 10K RPM SFF HDD
+                PID: UCS-HD300G10K12G
+                VID: V01
+                Vendor: SEAGATE
+                Model: ST300MM0008
+                Vendor Description: Seagate Technology
+                Serial: S421T9YY0000M6485TE6
+                HW Rev: 0
+                Block Size: 512
+                Blocks: 583983104
+                Operability: Operable
+                Oper Qualifier Reason: N/A
+                Presence: Equipped
+                Size: 285148
+                Drive State: Online
+                Power State: Active
+                Link Speed: 12 Gbps
+                Device Version: N003
+                Device Type: HDD
+                Thermal: N/A
+
+            Local Disk 2:
+                Product Name: 300GB 12G SAS 10K RPM SFF HDD
+                PID: UCS-HD300G10K12G
+                VID: V01
+                Vendor: SEAGATE
+                Model: ST300MM0008
+                Vendor Description: Seagate Technology
+                Serial: S421TD5T0000K647K3RB
+                HW Rev: 0
+                Block Size: 512
+                Blocks: 583983104
+                Operability: Operable
+                Oper Qualifier Reason: N/A
+                Presence: Equipped
+                Size: 285148
+                Drive State: Online
+                Power State: Active
+                Link Speed: 12 Gbps
+                Device Version: N003
+                Device Type: HDD
+                Thermal: N/A
+
+            Virtual Drive 0:
+                Type: RAID 1 Mirrored
+                Block Size: 512
+                Blocks: 583983104
+                Operability: Operable
+                Presence: Equipped
+                Size: 285148
+                Lifecycle: Allocated
+                Drive State: Optimal
+                Strip Size (KB): 64
+                Access Policy: Read Write
+                Read Policy: Normal
+                Configured Write Cache Policy: Write Through
+                Actual Write Cache Policy: Write Through
+                IO Policy: Direct
+                Drive Cache: No Change
+                Bootable: True
+                Unique Identifier: dbe5d542-113a-47fa-a7bf-f270fd0fc4d4
+                Vendor Unique Identifier: 618e7283-7289-4820-22ac-f4e00c1fe67b
+
+        Adapter:
+
+        Adapter PID          Vendor            Serial       Overall Status
+        ------- ------------ ----------------- ------------ --------------
+              1 UCSB-MLOM-40G-03
+                             Cisco Systems Inc FCH20287B94  Operable
+
+
+`show server status detail`
+Server 1/2:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+
+`show server health status detail`
+Server 1/2:
+    Health status severity: Cleared
+    Health status qualifier:
+
+
+`show server memory detail`
+Server 1/2:
+    Array 1:
+        CPU ID: 1
+        Current Capacity (MB): 163840
+        Error Correction: Undisc
+        Max Capacity (MB): 1572864
+        Max Devices: 24
+        Populated: 10
+
+        DIMMS:
+
+        ID 1:
+            Location: A1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 34FDBA90
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 2:
+            Location: A2
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A5B10
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 3:
+            Location: A3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 4:
+            Location: B1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A5D31
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 5:
+            Location: B2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 6:
+            Location: B3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 7:
+            Location: C1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A4AB5
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 8:
+            Location: C2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 9:
+            Location: C3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 10:
+            Location: D1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A5A93
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 11:
+            Location: D2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 12:
+            Location: D3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 13:
+            Location: E1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A6F0F
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 14:
+            Location: E2
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 34FDA968
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 15:
+            Location: E3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 16:
+            Location: F1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A6BDD
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 17:
+            Location: F2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 18:
+            Location: F3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 19:
+            Location: G1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A5C84
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 20:
+            Location: G2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 21:
+            Location: G3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 22:
+            Location: H1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2400-MHz RDIMM/PC4-19200/single rank/x4/1.2v
+            PID: UCS-MR-1X161RV-A
+            VID: V01
+            Vendor: 0xCE00
+            Vendor Description: Samsung
+            Vendor Part Number: M393A2K40BB1-CRC
+            Vendor Serial (SN): 329A6C27
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2400
+            Latency: 0.400000
+            Width: 64
+
+        ID 23:
+            Location: H2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 24:
+            Location: H3
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+
+`show server environment`
+Server 1/2:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+

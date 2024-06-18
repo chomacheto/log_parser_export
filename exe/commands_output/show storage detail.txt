@@ -1,0 +1,68 @@
+`show storage detail`
+
+Storage on local flash drive of fabric interconnect:
+    Partition: bootflash
+    Size (MBytes): 16329
+    Used Percentage: 57
+
+    Partition: opt
+    Size (MBytes): 3877
+    Used Percentage: 3
+
+    Partition: spare
+    Size (MBytes): 5744
+    Used Percentage: 6
+
+    Partition: usbdrive
+    Size (MBytes): Nothing
+    Used Percentage: Empty
+
+    Partition: var_sysmgr
+    Size (MBytes): 2000
+    Used Percentage: 12
+
+    Partition: var_tmp
+    Size (MBytes): 600
+    Used Percentage: 1
+
+    Partition: volatile
+    Size (MBytes): 240
+    Used Percentage: 1
+
+    Partition: workspace
+    Size (MBytes): 3852
+    Used Percentage: 2
+`show storage detail`
+
+Storage on local flash drive of fabric interconnect:
+    Partition: bootflash
+    Size (MBytes): 16342
+    Used Percentage: 52
+
+    Partition: opt
+    Size (MBytes): 3873
+    Used Percentage: 3
+
+    Partition: spare
+    Size (MBytes): 5759
+    Used Percentage: 6
+
+    Partition: usbdrive
+    Size (MBytes): Nothing
+    Used Percentage: Empty
+
+    Partition: var_sysmgr
+    Size (MBytes): 2000
+    Used Percentage: 13
+
+    Partition: var_tmp
+    Size (MBytes): 600
+    Used Percentage: 1
+
+    Partition: volatile
+    Size (MBytes): 240
+    Used Percentage: 1
+
+    Partition: workspace
+    Size (MBytes): 3848
+    Used Percentage: 5

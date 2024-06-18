@@ -1,0 +1,10 @@
+`show service-pack version`
+Base version: 3.2(3)SP0(Default)
+No Service pack Installed
+`show service-pack version`
+Base version: 3.2(3)SP0(Default)
+No Service pack Installed
+`show service-pack version`
+Base version: 3.2(3)SP0
+No Service pack Installed
+`scope system`

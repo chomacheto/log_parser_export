@@ -1,0 +1,18 @@
+`show chassis inventory detail`
+Chassis 1:
+    Product Name: Cisco UCS 5108 AC2 Chassis
+    PID: UCSB-5108-AC2
+    VID: V03
+    Vendor: Cisco Systems Inc
+    Model: UCSB-5108-AC2
+    Serial (SN): FOX2019G5JB
+    HW Revision: 0
+
+Chassis 2:
+    Product Name: Cisco UCS 5108
+    PID: N20-C6508
+    VID: 02
+    Vendor: Cisco Systems Inc
+    Model: N20-C6508
+    Serial (SN): FOX1617GNGD
+    HW Revision: 0

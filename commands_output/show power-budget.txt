@@ -1,0 +1,19 @@
+`show power-budget`
+
+Budget:
+    Device Id        Power Cap (W) Average Usage (W) Group      Admin Priority
+    ---------------- ------------- ----------------- ---------- --------------
+    blade   1/1      0             0                 default    Utility
+    blade   1/2      0             4                 default    Utility
+    blade   1/3      0             8                 default    Utility
+    blade   1/7      1180          10                default    Utility
+    chassis 1        1880          181               default    Utility
+    blade   2/1      0             0                 default    Utility
+    blade   2/2      0             5                 default    Utility
+    blade   2/3      0             4                 default    Utility
+    blade   2/4      0             0                 default    Utility
+    chassis 2        800           226               default    Utility
+    rack server 1    1600          0                 default    Utility
+    rack server 3    0             0                 default    Utility
+    switch A         605           605               default    No Cap
+    switch B         605           605               default    No Cap

@@ -1,0 +1,71 @@
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+
+Health LED:
+    Severity: Normal
+    Reason:
+    Color: Green
+    Oper State: On
+`show health-led expand detail`
+Invalid Command
+`show health-led expand detail`
+Invalid Command
+`scope org`

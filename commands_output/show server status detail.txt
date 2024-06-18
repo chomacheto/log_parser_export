@@ -1,0 +1,232 @@
+`show server status detail`
+Server 1/1:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Unavailable
+    Admin State: In Service
+    Overall Status: Inoperable
+    Oper Qualifier: Adaptor Inoperable
+    Discovery: Failed
+    Current Task: getting inventory of server 1/1 via CIMC(FSM-STAGE:sam:dme:ComputeBladeDiscover:BmcInventory)
+    Check Point: Deep Checkpoint
+
+Server 1/2:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/3:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/4:
+    Slot Status: Equipped Not Primary
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 1/5:
+    Slot Status: Equipped Slave
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 1/6:
+    Slot Status: Equipped Not Primary
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 1/7:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/8:
+    Slot Status: Equipped Not Primary
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 2/1:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Unavailable
+    Admin State: In Service
+    Overall Status: Inoperable
+    Oper Qualifier: Adaptor Inoperable
+    Discovery: Failed
+    Current Task: getting inventory of server 2/1 via CIMC(FSM-STAGE:sam:dme:ComputeBladeDiscover:BmcInventory)
+    Check Point: Deep Checkpoint
+
+Server 2/2:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 2/3:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 2/4:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 2/5:
+    Slot Status: Empty
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 2/6:
+    Slot Status: Empty
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 2/7:
+    Slot Status: Empty
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 2/8:
+    Slot Status: Empty
+    Equipped Conn Path: Unknown
+    Equipped Conn Status: Unknown
+    Equipped Managing Instance:
+    Availability:
+    Admin State:
+    Overall Status:
+    Oper Qualifier:
+    Discovery:
+    Current Task:
+    Check Point:
+
+Server 1:
+    Conn Path: A,B
+    Conn Status: A,B
+    Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 3:
+    Conn Path: A,B
+    Conn Status: A,B
+    Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered

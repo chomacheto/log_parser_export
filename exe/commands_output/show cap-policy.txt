@@ -1,0 +1,6 @@
+`show cap-policy`
+
+Global policy to decide power capping scheme:
+    Power capping scheme
+    --------------------
+    Policy Driven Chassis Group Cap

@@ -1,0 +1,26 @@
+`show stats system-stats`
+
+System Stats:
+    Time Collected: 2023-01-27T18:18:16.711
+    Monitored Object: sys/switch-A
+    Suspect: No
+    Load: 0.720000
+    Mem Available (MB): 12797
+    Mem Cached (MB): 1802
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1219
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+`show stats system-stats`
+
+System Stats:
+    Time Collected: 2023-01-27T18:19:07.854
+    Monitored Object: sys/switch-B
+    Suspect: No
+    Load: 1.430000
+    Mem Available (MB): 12662
+    Mem Cached (MB): 1804
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1225
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0

@@ -1,0 +1,138 @@
+`show stats history system-stats`
+
+System Stats:
+    Time Collected: 2023-01-27T18:08:16.707
+    Monitored Object: sys/switch-A/sysstats
+    Suspect: No
+    Load: 0.110000
+    Mem Available (MB): 12875
+    Mem Cached (MB): 1752
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1231
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:53:16.706
+    Monitored Object: sys/switch-A/sysstats
+    Suspect: No
+    Load: 0.130000
+    Mem Available (MB): 12871
+    Mem Cached (MB): 1755
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1230
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:38:16.709
+    Monitored Object: sys/switch-A/sysstats
+    Suspect: No
+    Load: 0.050000
+    Mem Available (MB): 12875
+    Mem Cached (MB): 1752
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1230
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:23:16.723
+    Monitored Object: sys/switch-A/sysstats
+    Suspect: No
+    Load: 0.060000
+    Mem Available (MB): 12866
+    Mem Cached (MB): 1760
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1230
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:08:16.708
+    Monitored Object: sys/switch-A/sysstats
+    Suspect: No
+    Load: 0.340000
+    Mem Available (MB): 12873
+    Mem Cached (MB): 1754
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1230
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T16:53:16.707
+    Monitored Object: sys/switch-A/sysstats
+    Suspect: No
+    Load: 0.470000
+    Mem Available (MB): 12867
+    Mem Cached (MB): 1759
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1230
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+`show event detail`
+`show stats history system-stats`
+
+System Stats:
+    Time Collected: 2023-01-27T18:08:05.493
+    Monitored Object: sys/switch-B/sysstats
+    Suspect: No
+    Load: 0.390000
+    Mem Available (MB): 12705
+    Mem Cached (MB): 1778
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1226
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:53:05.490
+    Monitored Object: sys/switch-B/sysstats
+    Suspect: No
+    Load: 0.060000
+    Mem Available (MB): 12768
+    Mem Cached (MB): 1785
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1228
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:38:05.490
+    Monitored Object: sys/switch-B/sysstats
+    Suspect: No
+    Load: 0.100000
+    Mem Available (MB): 12765
+    Mem Cached (MB): 1787
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1228
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:23:06.195
+    Monitored Object: sys/switch-B/sysstats
+    Suspect: No
+    Load: 0.100000
+    Mem Available (MB): 12779
+    Mem Cached (MB): 1774
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1228
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T17:08:05.493
+    Monitored Object: sys/switch-B/sysstats
+    Suspect: No
+    Load: 0.100000
+    Mem Available (MB): 12767
+    Mem Cached (MB): 1785
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1228
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+
+    Time Collected: 2023-01-27T16:53:05.494
+    Monitored Object: sys/switch-B/sysstats
+    Suspect: No
+    Load: 0.170000
+    Mem Available (MB): 12766
+    Mem Cached (MB): 1787
+    Kernel Mem Total (MB): 1502
+    Kernel Mem Free (MB): 1228
+    Correctable Parity Error (errors): N/A
+    Thresholded: 0
+`show event detail`

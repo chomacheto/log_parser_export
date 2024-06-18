@@ -1,0 +1,138 @@
+`show fsm status`
+
+ID: A
+
+    FSM 1:
+        Remote Result: Not Applicable
+        Remote Error Code: None
+        Remote Error Description:
+        Status: Nop
+        Previous Status: Update Switch Success
+        Timestamp: 2020-02-17T12:45:43.087
+        Try: 0
+        Flags: 0
+        Progress (%): 100
+        Current Task:
+
+    FSM 2:
+        Status: Nop
+        Previous Status: Sw Mgmt Oob Ipv6 If Config Success
+        Timestamp: 2022-08-19T08:08:11.844
+        Try: 0
+        Progress (%): 100
+        Current Task:
+
+    FSM 3:
+        Status: Nop
+        Previous Status: Conf Physical Success
+        Timestamp: 2022-03-17T16:21:49.381
+        Try: 0
+        Progress (%): 100
+        Current Task:
+`show fsm status`
+
+ID: B
+
+    FSM 1:
+        Remote Result: Not Applicable
+        Remote Error Code: None
+        Remote Error Description:
+        Status: Nop
+        Previous Status: Update Switch Success
+        Timestamp: 2020-02-17T12:49:11.515
+        Try: 0
+        Flags: 0
+        Progress (%): 100
+        Current Task:
+
+    FSM 2:
+        Status: Nop
+        Previous Status: Sw Mgmt Oob Ipv6 If Config Success
+        Timestamp: 2022-08-19T08:07:58.305
+        Try: 0
+        Progress (%): 100
+        Current Task:
+
+    FSM 3:
+        Status: Nop
+        Previous Status: Conf Physical Success
+        Timestamp: 2020-02-17T12:12:56.323
+        Try: 0
+        Progress (%): 100
+        Current Task:
+`show fsm status`
+
+
+    FSM 1:
+        Remote Result: Not Applicable
+        Remote Error Code: None
+        Remote Error Description:
+        Status: Nop
+        Previous Status: Update User Ep Success
+        Timestamp: 2022-08-19T08:11:08.346
+        Try: 0
+        Progress (%): 100
+        Current Task:
+`scope radius`
+`show fsm status`
+
+
+    FSM 1:
+        Status: Nop
+        Previous Status: Update Ep Success
+        Timestamp: 2022-08-19T08:09:08.275
+        Try: 0
+        Progress (%): 100
+        Current Task:
+`scope tacacs`
+`show fsm status`
+
+
+    FSM 1:
+        Status: Nop
+        Previous Status: Update Ep Success
+        Timestamp: 2022-08-19T08:09:08.282
+        Try: 0
+        Progress (%): 100
+        Current Task:
+`scope ldap`
+`show fsm status`
+
+
+    FSM 1:
+        Status: Nop
+        Previous Status: Update Ep Success
+        Timestamp: 2022-08-19T08:09:08.240
+        Try: 0
+        Progress (%): 100
+        Current Task:
+`show fsm status`
+
+
+    FSM 1:
+        Remote Result: Not Applicable
+        Remote Error Code: None
+        Remote Error Description:
+        Status: Nop
+        Previous Status: Apply Catalog Pack Success
+        Timestamp: 2022-03-18T18:11:13.183
+        Try: 0
+        Progress (%): 100
+        Current Task:
+        Flags: 0
+`scope org`
+`scope system`
+`scope org`
+`scope system`
+`scope system`
+`scope system`
+`scope system`
+`scope system`
+`scope system`
+`show fault detail`
+`scope org`
+`scope org`
+`scope org`
+`scope org`
+`scope org`
+`scope org`

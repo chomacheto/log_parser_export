@@ -1,0 +1,562 @@
+`show chassis firmware detail`
+Chassis 1:
+    Server 1:
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(21g)
+            Backup-Vers: 3.1(21e)
+            Bootloader-Vers: 2.0(2q).17
+
+        BIOS:
+            Running-Vers:
+            Package-Vers:
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers:
+            Backup-Vers:
+        RAID Controller 1 SAS:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 1:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 2:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+    Server 2:
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(21g)
+            Backup-Vers: 3.1(26m)
+            Bootloader-Vers: 3.1(21g).36
+
+        Adapter 1:
+            Running-Vers: 4.1(2e)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.1(2e)
+            Backup-Vers: 4.2(3b)
+            Bootloader-Vers: 4.0(1c)
+        BIOS:
+            Running-Vers: B200M4.3.1.3l.0.062520181027
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: B200M4.3.1.3l.0.062520181027
+            Backup-Vers: B200M4.4.0.2c.0.0626190856
+        RAID Controller 1 SAS:
+            Running-Vers: 24.5.0-0043|6.19.05.0|NA
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: 24.5.0-0043|6.19.05.0|NA
+            Bootloader-Vers: 6.19.05.0_4.16.08.00_0x06080500
+
+        BoardController:
+            Running-Vers: 14.0
+            Package-Vers: 3.2(3l)B
+            Activate-Status: Ready
+            Startup-Vers: 14.0
+
+        Local Disk 1:
+            Running-Vers: N003
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: N003
+            Bootloader-Vers:
+
+        Local Disk 2:
+            Running-Vers: N003
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: N003
+            Bootloader-Vers:
+
+    Server 3:
+        CIMC:
+            Running-Vers: 3.1(26m)
+            Package-Vers: 3.2(3l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(26m)
+            Backup-Vers: 3.1(26m)
+            Bootloader-Vers: 3.1(26m).36
+
+        Adapter 1:
+            Running-Vers: 4.2(3b)
+            Package-Vers: 3.2(3l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.2(3b)
+            Backup-Vers: 4.1(2e)
+            Bootloader-Vers: 4.0(1c)
+        BIOS:
+            Running-Vers: B420M4.4.0.2c.0.0626190804
+            Package-Vers: 3.2(3l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: B420M4.4.0.2c.0.0626190804
+            Backup-Vers: B420M4.3.1.2l.0.062520180944
+        RAID Controller 1 SAS:
+            Running-Vers: 24.12.1-0207
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 24.12.1-0207
+            Bootloader-Vers: 6.30.03.2_4.17.08.00_0xC6130203
+
+        RAID Controller 2 PT:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        BoardController:
+            Running-Vers: 8.0
+            Package-Vers: 3.2(3l)B
+            Activate-Status: Ready
+            Startup-Vers: 8.0
+
+        Local Disk 1:
+            Running-Vers: N003
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: N003
+            Bootloader-Vers:
+
+        Local Disk 2:
+            Running-Vers: N003
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: N003
+            Bootloader-Vers:
+
+        Local Disk 3:
+            Running-Vers: N003
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: N003
+            Bootloader-Vers:
+
+        Local Disk 4:
+            Running-Vers: N003
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: N003
+            Bootloader-Vers:
+
+    Server 7:
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status:
+            Startup-Vers:
+            Backup-Vers: 3.1(21e)
+            Bootloader-Vers: 3.1(21g).36
+
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status:
+            Startup-Vers:
+            Backup-Vers: 3.1(21e)
+            Bootloader-Vers: 3.1(21g).36
+
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(21g)
+            Backup-Vers: 3.1(21e)
+            Bootloader-Vers: 3.1(21g).36
+
+        Adapter 3:
+            Running-Vers: 4.1(2e)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.1(2e)
+            Backup-Vers: 4.1(2d)
+            Bootloader-Vers: 4.0(1c)
+        BIOS:
+            Running-Vers: EXM4.3.1.2f.0.052320181215
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: EXM4.3.1.2f.0.052320181215
+            Backup-Vers: EXM4.3.1.2a.0.012320171255
+        BIOS:
+            Running-Vers: EXM4.3.1.2f.0.052320181215
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status:
+            Startup-Vers:
+            Backup-Vers: EXM4.3.1.2a.0.012320171255
+        BIOS:
+            Running-Vers: EXM4.3.1.2f.0.052320181215
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status:
+            Startup-Vers:
+            Backup-Vers: EXM4.3.1.2a.0.012320171255
+        RAID Controller 1 SAS:
+            Running-Vers: 24.2.1-0066|6.14.05.3|NA
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: 24.2.1-0066|6.14.05.3|NA
+            Bootloader-Vers: C6.14.05.3_4.16.08.00_0xC603050
+
+        RAID Controller 4 SAS:
+            Running-Vers: 24.2.1-0066|6.14.05.3|NA
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: 24.2.1-0066|6.14.05.3|NA
+            Bootloader-Vers: C6.14.05.3_4.16.08.00_0xC603050
+
+        BoardController:
+            Running-Vers: 7.0
+            Package-Vers: 3.2(3l)B
+            Activate-Status: Ready
+            Startup-Vers: 7.0
+
+            Running-Vers: 7.0
+            Package-Vers: 3.2(3l)B
+            Activate-Status:
+            Startup-Vers:
+
+            Running-Vers: 7.0
+            Package-Vers: 3.2(3l)B
+            Activate-Status:
+            Startup-Vers:
+
+        Local Disk 1:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 2:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 3:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 4:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+    PSU 1
+        Running-Vers: 03.00
+        Package-Vers:
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 03.00
+        Startup-Vers: 03.00
+        Bootloader-Vers: 03.00
+
+    PSU 2
+        Running-Vers: 03.00
+        Package-Vers:
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 03.00
+        Startup-Vers: 03.00
+        Bootloader-Vers: 03.00
+
+    PSU 3
+        Running-Vers:
+        Package-Vers:
+        Update-Status:
+        Activate-Status:
+        Backup-Vers:
+        Startup-Vers:
+        Bootloader-Vers:
+
+    PSU 4
+        Running-Vers:
+        Package-Vers:
+        Update-Status:
+        Activate-Status:
+        Backup-Vers:
+        Startup-Vers:
+        Bootloader-Vers:
+    IOM 1 (Fabric A):
+        Running-Vers: 3.2(3j)
+        Package Vers: 3.2(3l)A
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 2.2(8l)
+        Startup-Vers: 3.2(3j)
+        Bootloader-Vers: 2.24
+
+    IOM 2 (Fabric B):
+        Running-Vers: 3.2(3j)
+        Package Vers: 3.2(3l)A
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 2.2(8l)
+        Startup-Vers: 3.2(3j)
+        Bootloader-Vers: 2.24
+
+Chassis 2:
+    Server 1:
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(21g)
+            Backup-Vers: 3.1(21d)
+            Bootloader-Vers: 2.0(2q).17
+
+        BIOS:
+            Running-Vers:
+            Package-Vers:
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers:
+            Backup-Vers:
+        RAID Controller 1 SAS:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 1:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        Local Disk 2:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+    Server 2:
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(21g)
+            Backup-Vers: 2.2(3c)
+            Bootloader-Vers: 3.1(21g).36
+
+        Adapter 1:
+            Running-Vers: 4.1(2e)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.1(2e)
+            Backup-Vers: 4.0(1c)
+            Bootloader-Vers: 4.0(1S4)
+        BIOS:
+            Running-Vers: B200M3.2.2.6f.0.052120182033
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: B200M3.2.2.6f.0.052120182033
+            Backup-Vers: B200M3.2.2.3.0.080820141339
+        RAID Controller 1 SAS:
+            Running-Vers: 20.12.1-0250
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 20.12.1-0250
+            Bootloader-Vers: 4.37.00_4.14.05.00_0x05290000
+
+        BoardController:
+            Running-Vers: 15.0
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: 15.0
+
+        Local Disk 1:
+            Running-Vers: C49B
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: C49B
+            Bootloader-Vers:
+
+        Local Disk 2:
+            Running-Vers: B51C
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: B51C
+            Bootloader-Vers:
+
+    Server 3:
+        CIMC:
+            Running-Vers: 3.1(21g)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 3.1(21g)
+            Backup-Vers: 3.1(21d)
+            Bootloader-Vers: 3.1(21g).36
+
+        Adapter 1:
+            Running-Vers: 4.1(2e)
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.1(2e)
+            Backup-Vers: 4.1(2d)
+            Bootloader-Vers: 4.0(1c)
+        BIOS:
+            Running-Vers: B200M4.3.1.3l.0.062520181027
+            Package-Vers: 2.2(8l)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: B200M4.3.1.3l.0.062520181027
+            Backup-Vers: B200M4.3.1.3f.0.110320162243
+        RAID Controller 1 SAS:
+            Running-Vers: 24.5.0-0043
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 24.5.0-0043
+            Bootloader-Vers: 6.19.05.0_4.16.08.00_0x06080500
+
+        BoardController:
+            Running-Vers: 12.0
+            Package-Vers: 2.2(8l)B
+            Activate-Status: Ready
+            Startup-Vers: 12.0
+
+    Server 4:
+        CIMC:
+            Running-Vers: 4.1(28a)
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.1(28a)
+            Backup-Vers: 4.1(28a)
+            Bootloader-Vers: 4.1(28a)
+
+        Adapter 1:
+            Running-Vers: 4.3(2a)
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 4.3(2a)
+            Backup-Vers: 4.3(2a)
+            Bootloader-Vers: 4.3(2a)
+        BIOS:
+            Running-Vers: B200M5.4.0.2a.0.1102181538
+            Package-Vers:
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: B200M5.4.0.2a.0.1102181538
+            Backup-Vers: B200M5.4.0.2a.0.1102181538
+        RAID Controller 1 PCH:
+            Running-Vers:
+            Package-Vers:
+            Activate-Status:
+            Startup-Vers:
+            Bootloader-Vers:
+
+        BoardController:
+            Running-Vers: 13.0
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 13.0
+
+        Local Disk 1:
+            Running-Vers: D0MU054
+            Package-Vers: 3.2(3l)B
+            Activate-Status: Ready
+            Startup-Vers: D0MU054
+            Bootloader-Vers:
+
+    PSU 1
+        Running-Vers: 05.0b
+        Package-Vers: 3.2(3l)B
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 05.0b
+        Startup-Vers: 05.0b
+        Bootloader-Vers: 05.0b
+
+    PSU 2
+        Running-Vers: 05.0b
+        Package-Vers: 3.2(3l)B
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 05.0b
+        Startup-Vers: 05.0b
+        Bootloader-Vers: 05.0b
+
+    PSU 3
+        Running-Vers: 05.0b
+        Package-Vers: 3.2(3l)B
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 05.0b
+        Startup-Vers: 05.0b
+        Bootloader-Vers: 05.0b
+
+    PSU 4
+        Running-Vers:
+        Package-Vers:
+        Update-Status:
+        Activate-Status:
+        Backup-Vers:
+        Startup-Vers:
+        Bootloader-Vers:
+    IOM 1 (Fabric A):
+        Running-Vers: 3.2(3j)
+        Package Vers: 3.2(3l)A
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 2.2(8l)
+        Startup-Vers: 3.2(3j)
+        Bootloader-Vers: 2.24
+
+    IOM 2 (Fabric B):
+        Running-Vers: 3.2(3j)
+        Package Vers: 3.2(3l)A
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 2.2(8l)
+        Startup-Vers: 3.2(3j)
+        Bootloader-Vers: 2.24
+`scope firmware`
+`scope system`
+`scope system`

@@ -1,0 +1,69 @@
+`show service-profile circuit`
+Service Profile: B-Series-ESX-B200M2
+Server:
+
+Service Profile: B-Series-ESX-B200M4
+Server:
+
+Service Profile: B-Series-ESX-B420M4
+Server:
+
+Service Profile: B-Series-ESX-EXM42
+Server:
+
+Service Profile: B-Series-ESX-HOST
+Server:
+
+Service Profile: C-Series-ESX-C220M4S
+Server:
+
+Service Profile: C-Series-ESX-C240M4SX
+Server:
+
+Service Profile: C-Series-ESX-C460M4
+Server:
+
+Service Profile: C-Series-ESX-HOST
+Server:
+
+Service Profile: dcnlab.local/compute-nodes
+Server:
+
+Service Profile: HyperFlex-A/compute-nodes
+Server:
+
+Service Profile: dcnlab.local/compute-nodes-m5
+Server:
+
+Service Profile: HyperFlex-A/compute-nodes-m5
+Server:
+
+Service Profile: dcnlab.local/hx-nodes
+Server:
+
+Service Profile: HyperFlex-A/hx-nodes
+Server:
+
+Service Profile: dcnlab.local/hx-nodes-m5
+Server:
+
+Service Profile: HyperFlex-A/hx-nodes-m5
+Server:
+
+Service Profile: dcnlab.local/rack-unit-1
+Server:
+
+Service Profile: HyperFlex-A/rack-unit-1
+Server:
+
+Service Profile: dcnlab.local/rack-unit-2
+Server:
+
+Service Profile: HyperFlex-A/rack-unit-2
+Server:
+
+Service Profile: dcnlab.local/rack-unit-3
+Server:
+
+Service Profile: HyperFlex-A/rack-unit-3
+Server:

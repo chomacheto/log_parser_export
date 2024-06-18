@@ -1,0 +1,148 @@
+`show fabric-interconnect inventory expand`
+A:
+
+    Fabric Card:
+
+    Slot  Description          Num Ports  State      PID             Serial (SN)
+    ----- -------------------- ---------- ---------- --------------- -----------
+        1 O2 32X10GE/Modular Universal Pl
+                                       32 Online     UCS-FI-6248UP   FOC162426HL
+
+    Ether Port:
+
+    Slot  Aggr Port  Port  Oper State       Mac                  Role    Xcvr
+    ----- ---------- ----- ---------------- -------------------- ------- ----
+        1          0     1 Up               54:7F:EE:AD:F3:88    Server  H10GB CU3M
+        1          0     2 Up               54:7F:EE:AD:F3:89    Server  H10GB CU3M
+        1          0     3 Up               54:7F:EE:AD:F3:8A    Server  H10GB CU3M
+        1          0     4 Sfp Not Present  54:7F:EE:AD:F3:8B    Unknown N/A
+        1          0     5 Sfp Not Present  54:7F:EE:AD:F3:8C    Unknown N/A
+        1          0     6 Sfp Not Present  54:7F:EE:AD:F3:8D    Unknown N/A
+        1          0     7 Sfp Not Present  54:7F:EE:AD:F3:8E    Unknown N/A
+        1          0     8 Sfp Not Present  54:7F:EE:AD:F3:8F    Unknown N/A
+        1          0     9 Sfp Not Present  54:7F:EE:AD:F3:90    Unknown N/A
+        1          0    10 Sfp Not Present  54:7F:EE:AD:F3:91    Unknown N/A
+        1          0    11 Up               54:7F:EE:AD:F3:92    Server  H10GB CU3M
+        1          0    12 Up               54:7F:EE:AD:F3:93    Server  H10GB CU3M
+        1          0    13 Up               54:7F:EE:AD:F3:94    Server  H10GB CU3M
+        1          0    14 Sfp Not Present  54:7F:EE:AD:F3:95    Unknown N/A
+        1          0    15 Sfp Not Present  54:7F:EE:AD:F3:96    Unknown N/A
+        1          0    16 Sfp Not Present  54:7F:EE:AD:F3:97    Unknown N/A
+        1          0    17 Sfp Not Present  54:7F:EE:AD:F3:98    Server  N/A
+        1          0    18 Sfp Not Present  54:7F:EE:AD:F3:99    Unknown N/A
+        1          0    19 Sfp Not Present  54:7F:EE:AD:F3:9A    Unknown N/A
+        1          0    20 Sfp Not Present  54:7F:EE:AD:F3:9B    Unknown N/A
+        1          0    21 Admin Down       54:7F:EE:AD:F3:9C    Unknown H10GB CU3M
+        1          0    22 Sfp Not Present  54:7F:EE:AD:F3:9D    Server  N/A
+        1          0    23 Sfp Not Present  54:7F:EE:AD:F3:9E    Server  N/A
+        1          0    24 Sfp Not Present  54:7F:EE:AD:F3:9F    Unknown N/A
+        1          0    25 Sfp Not Present  54:7F:EE:AD:F3:A0    Unknown N/A
+        1          0    26 Sfp Not Present  54:7F:EE:AD:F3:A1    Unknown N/A
+        1          0    27 Sfp Not Present  54:7F:EE:AD:F3:A2    Unknown N/A
+        1          0    28 Sfp Not Present  54:7F:EE:AD:F3:A3    Unknown N/A
+        1          0    29 Up               54:7F:EE:AD:F3:A4    Network 1000base SX
+        1          0    30 Sfp Not Present  54:7F:EE:AD:F3:A5    Unknown N/A
+
+    FC Port:
+
+    Slot  Port  Oper State       Wwn
+    ----- ----- ---------------- ---
+        1    31 Sfp Not Present  20:1F:54:7F:EE:AD:F3:80
+        1    32 Up               20:20:54:7F:EE:AD:F3:80
+
+    Fan:
+
+    ID    PID             Serial (SN)     Overall Status
+    ----- --------------- --------------- --------------
+        1 UCS-FAN-6248UP  N/A             Operable
+        2 UCS-FAN-6248UP  N/A             Operable
+        3 UCS-FAN-6248UP  N/A             Operable
+        4 UCS-FAN-6248UP  N/A             Operable
+        1 UCS-FAN-6248UP  N/A             Operable
+        2 UCS-FAN-6248UP  N/A             Operable
+        3 UCS-FAN-6248UP  N/A             Operable
+        4 UCS-FAN-6248UP  N/A             Operable
+
+    PSU:
+
+    PSU   PID             Serial (SN)     Overall Status
+    ----- --------------- --------------- --------------
+        1 UCS-PSU-6248UP-AC
+                          ART1620X00U     Operable
+        2 UCS-PSU-6248UP-AC
+                          ART1619X04Y     Operable
+
+B:
+
+    Fabric Card:
+
+    Slot  Description          Num Ports  State      PID             Serial (SN)
+    ----- -------------------- ---------- ---------- --------------- -----------
+        1 O2 32X10GE/Modular Universal Pl
+                                       32 Online     UCS-FI-6248UP   FOC19204V96
+
+    Ether Port:
+
+    Slot  Aggr Port  Port  Oper State       Mac                  Role    Xcvr
+    ----- ---------- ----- ---------------- -------------------- ------- ----
+        1          0     1 Up               8C:60:4F:6C:19:28    Server  H10GB CU3M
+        1          0     2 Up               8C:60:4F:6C:19:29    Server  H10GB CU3M
+        1          0     3 Up               8C:60:4F:6C:19:2A    Server  H10GB CU3M
+        1          0     4 Sfp Not Present  8C:60:4F:6C:19:2B    Unknown N/A
+        1          0     5 Sfp Not Present  8C:60:4F:6C:19:2C    Unknown N/A
+        1          0     6 Sfp Not Present  8C:60:4F:6C:19:2D    Unknown N/A
+        1          0     7 Sfp Not Present  8C:60:4F:6C:19:2E    Unknown N/A
+        1          0     8 Sfp Not Present  8C:60:4F:6C:19:2F    Unknown N/A
+        1          0     9 Sfp Not Present  8C:60:4F:6C:19:30    Unknown N/A
+        1          0    10 Sfp Not Present  8C:60:4F:6C:19:31    Unknown N/A
+        1          0    11 Up               8C:60:4F:6C:19:32    Server  H10GB CU3M
+        1          0    12 Up               8C:60:4F:6C:19:33    Server  H10GB CU3M
+        1          0    13 Up               8C:60:4F:6C:19:34    Server  H10GB CU3M
+        1          0    14 Sfp Not Present  8C:60:4F:6C:19:35    Unknown N/A
+        1          0    15 Sfp Not Present  8C:60:4F:6C:19:36    Unknown N/A
+        1          0    16 Sfp Not Present  8C:60:4F:6C:19:37    Unknown N/A
+        1          0    17 Sfp Not Present  8C:60:4F:6C:19:38    Unknown N/A
+        1          0    18 Sfp Not Present  8C:60:4F:6C:19:39    Unknown N/A
+        1          0    19 Sfp Not Present  8C:60:4F:6C:19:3A    Unknown N/A
+        1          0    20 Sfp Not Present  8C:60:4F:6C:19:3B    Unknown N/A
+        1          0    21 Admin Down       8C:60:4F:6C:19:3C    Unknown H10GB CU3M
+        1          0    22 Sfp Not Present  8C:60:4F:6C:19:3D    Server  N/A
+        1          0    23 Sfp Not Present  8C:60:4F:6C:19:3E    Server  N/A
+        1          0    24 Sfp Not Present  8C:60:4F:6C:19:3F    Unknown N/A
+        1          0    25 Sfp Not Present  8C:60:4F:6C:19:40    Unknown N/A
+        1          0    26 Sfp Not Present  8C:60:4F:6C:19:41    Unknown N/A
+        1          0    27 Sfp Not Present  8C:60:4F:6C:19:42    Unknown N/A
+        1          0    28 Sfp Not Present  8C:60:4F:6C:19:43    Unknown N/A
+        1          0    29 Up               8C:60:4F:6C:19:44    Network 1000base SX
+        1          0    30 Sfp Not Present  8C:60:4F:6C:19:45    Unknown N/A
+
+    FC Port:
+
+    Slot  Port  Oper State       Wwn
+    ----- ----- ---------------- ---
+        1    31 Sfp Not Present  20:1F:8C:60:4F:6C:19:40
+        1    32 Up               20:20:8C:60:4F:6C:19:40
+
+    Fan:
+
+    ID    PID             Serial (SN)     Overall Status
+    ----- --------------- --------------- --------------
+        1 UCS-FAN-6248UP  N/A             Operable
+        2 UCS-FAN-6248UP  N/A             Operable
+        3 UCS-FAN-6248UP  N/A             Operable
+        4 UCS-FAN-6248UP  N/A             Operable
+        1 UCS-FAN-6248UP  N/A             Operable
+        2 UCS-FAN-6248UP  N/A             Operable
+        3 UCS-FAN-6248UP  N/A             Operable
+        4 UCS-FAN-6248UP  N/A             Operable
+
+    PSU:
+
+    PSU   PID             Serial (SN)     Overall Status
+    ----- --------------- --------------- --------------
+        1 UCS-PSU-6248UP-AC
+                          ART1620X00S     Operable
+        2 UCS-PSU-6248UP-AC
+                          ART1619X043     Operable
+`show fex detail`
+`show fex inventory expand detail`

@@ -1,0 +1,1700 @@
+`show chassis inventory expand`
+Chassis 1:
+    Servers:
+        Server 1/1:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V02
+            Equipped Serial (SN): FCH161672DR
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V02
+            Acknowledged Serial (SN): FCH161672DR
+            Acknowledged Memory (MB): 0
+            Acknowledged Effective Memory (MB): 0
+            Acknowledged Cores: 0
+            Acknowledged Adapters: 1
+
+        Server 1/2:
+            Equipped Product Name: Cisco UCS B200 M4
+            Equipped PID: UCSB-B200-M4
+            Equipped VID: V02
+            Equipped Serial (SN): FCH2028J7YB
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M4
+            Acknowledged PID: UCSB-B200-M4
+            Acknowledged VID: V02
+            Acknowledged Serial (SN): FCH2028J7YB
+            Acknowledged Memory (MB): 163840
+            Acknowledged Effective Memory (MB): 163840
+            Acknowledged Cores: 16
+            Acknowledged Adapters: 1
+
+        Server 1/3:
+            Equipped Product Name: Cisco UCS B420 M4
+            Equipped PID: UCSB-B420-M4
+            Equipped VID: 3V02
+            Equipped Serial (SN): FCH20267KVP
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B420 M4
+            Acknowledged PID: UCSB-B420-M4
+            Acknowledged VID: 3V02
+            Acknowledged Serial (SN): FCH20267KVP
+            Acknowledged Memory (MB): 131072
+            Acknowledged Effective Memory (MB): 131072
+            Acknowledged Cores: 20
+            Acknowledged Adapters: 1
+
+        Server 1/4:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Equipped Not Primary
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+        Server 1/5:
+            Equipped Product Name: Cisco UCS Scalable M4 Blade Module for UCS B260 M4 or B460 M4 Blade Server with E7 v3 CPU
+            Equipped PID: UCSB-EX-M4-2
+            Equipped VID:
+            Equipped Serial (SN): FCH20307UNF
+            Slot Status: Equipped Slave
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+        Server 1/6:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Equipped Not Primary
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+        Server 1/7:
+            Equipped Product Name: Cisco UCS Scalable M4 Blade Module for UCS B260 M4 or B460 M4 Blade Server with E7 v3 CPU
+            Equipped PID: UCSB-EX-M4-2
+            Equipped VID: V04
+            Equipped Serial (SN): FCH20307UNY
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS Scalable M4 Blade Module for UCS B260 M4 or B460 M4 Blade Server with E7 v3 CPU
+            Acknowledged PID: UCSB-EX-M4-2
+            Acknowledged VID: V04
+            Acknowledged Serial (SN): FCH20307UNY
+            Acknowledged Memory (MB): 131072
+            Acknowledged Effective Memory (MB): 131072
+            Acknowledged Cores: 32
+            Acknowledged Adapters: 1
+
+        Server 1/8:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Equipped Not Primary
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+    PSU 1:
+        Presence: Equipped
+        Product Name: Platinum II AC Power Supply for UCS 5108 Chassis
+        PID: UCSB-PSU-2500ACDV
+        VID: V02
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM20200284
+        HW Revision: 0
+
+    PSU 2:
+        Presence: Equipped
+        Product Name: Platinum II AC Power Supply for UCS 5108 Chassis
+        PID: UCSB-PSU-2500ACDV
+        VID: V02
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM2020028W
+        HW Revision: 0
+
+    PSU 3:
+        Presence: Equipped
+        Product Name: 2500W 200-240VAC PSU for UCS 5108 Blade Server Chassis
+        PID: N20-PAC5-2500W
+        VID: V05
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM161001YU
+        HW Revision: 0
+
+    PSU 4:
+        Presence: Missing
+        Product Name:
+        PID:
+        VID:
+        Vendor:
+        Serial (SN):
+        HW Revision: 0
+
+    Fan Modules:
+        Tray 1 Module 1:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG20170370 0
+                     2 N20-FAN5     Cisco Systems I NWG20170370 0
+
+        Tray 1 Module 2:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG201704AK 0
+                     2 N20-FAN5     Cisco Systems I NWG201704AK 0
+
+        Tray 1 Module 3:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG2013048N 0
+                     2 N20-FAN5     Cisco Systems I NWG2013048N 0
+
+        Tray 1 Module 4:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG201704C9 0
+                     2 N20-FAN5     Cisco Systems I NWG201704C9 0
+
+        Tray 1 Module 5:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG201304YB 0
+                     2 N20-FAN5     Cisco Systems I NWG201304YB 0
+
+        Tray 1 Module 6:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG201705DB 0
+                     2 N20-FAN5     Cisco Systems I NWG201705DB 0
+
+        Tray 1 Module 7:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG201702NX 0
+                     2 N20-FAN5     Cisco Systems I NWG201702NX 0
+
+        Tray 1 Module 8:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG201701V7 0
+                     2 N20-FAN5     Cisco Systems I NWG201701V7 0
+
+    IOCard 1:
+        Side: Left
+        Fabric ID: A
+        Product Name: Cisco UCS 2204XP
+        PID: UCS-IOM-2204XP
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH20307U55
+        HW Revision: 0
+
+    IOCard 2:
+        Side: Right
+        Fabric ID: B
+        Product Name: Cisco UCS 2204XP
+        PID: UCS-IOM-2204XP
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH20287F4D
+        HW Revision: 0
+
+    Storage Controller 1
+    Storage Controller 1
+    Storage Controller 1
+    Storage Controller 2
+    Storage Controller 1
+    Storage Controller 4
+    Fabric Facing Interfaces:
+
+        Slot Id: 1
+        Port Id: 1
+        Peer Slot Id: 1
+        Peer Port Id: 1
+        Fabric ID: A
+        Ack: Ok
+        Discovery: Present
+        Xcvr: H10GB CU3M
+        Xcvr Vendor: CISCO-MOLEX
+        Xcvr Model: 74752-9742
+        Xcvr Serial: MOC2020A19W
+
+
+        Slot Id: 1
+        Port Id: 2
+        Peer Slot Id: 1
+        Peer Port Id: 2
+        Fabric ID: A
+        Ack: Ok
+        Discovery: Present
+        Xcvr: H10GB CU3M
+        Xcvr Vendor: CISCO-MOLEX
+        Xcvr Model: 74752-9742
+        Xcvr Serial: MOC2020A17J
+
+
+        Slot Id: 2
+        Port Id: 1
+        Peer Slot Id: 1
+        Peer Port Id: 1
+        Fabric ID: B
+        Ack: Ok
+        Discovery: Present
+        Xcvr: H10GB CU3M
+        Xcvr Vendor: CISCO-MOLEX
+        Xcvr Model: 74752-9742
+        Xcvr Serial: MOC2020A15D
+
+
+        Slot Id: 2
+        Port Id: 2
+        Peer Slot Id: 1
+        Peer Port Id: 2
+        Fabric ID: B
+        Ack: Ok
+        Discovery: Present
+        Xcvr: H10GB CU3M
+        Xcvr Vendor: CISCO-MOLEX
+        Xcvr Model: 74752-9742
+        Xcvr Serial: MOC2020A181
+
+    Locale A:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Left
+        Slot Id: 2
+        Locale: Server
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Right
+        Slot Id: 2
+        Locale: Server
+        Type: Lan
+
+    Locale A:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Left
+        Slot Id: 3
+        Locale: Server
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Right
+        Slot Id: 3
+        Locale: Server
+        Type: Lan
+
+    Locale A:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Left
+        Slot Id: 7
+        Locale: Server
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Right
+        Slot Id: 7
+        Locale: Server
+        Type: Lan
+
+    Locale A:
+        Name:
+        C Type: Mux Fabricpc
+        Transport: Ether
+        Side: Left
+        Slot Id: 1
+        Locale: Chassis
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux Fabricpc
+        Transport: Ether
+        Side: Right
+        Slot Id: 2
+        Locale: Chassis
+        Type: Lan
+
+    Host Port Channels:
+
+        Port Channel Id: 1324
+        Fabric ID: A
+        Oper State: Failed
+        Operational Speed: 20 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1333
+        Fabric ID: A
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1334
+        Fabric ID: A
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1323
+        Fabric ID: B
+        Oper State: Failed
+        Operational Speed: 20 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1332
+        Fabric ID: B
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1335
+        Fabric ID: B
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+    Storage Controller: sys/chassis-1/blade-1/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model:
+        PCI Addr:
+        HW Revision: 0
+        HW Rev:
+        Serial:
+        Vendor:
+        Raid Support:
+        JBOD Mode: Unknown
+        Rebuild Rate: N/A
+        Controller Status: Unknown
+        OOB Interface Supported: No
+        Pinned Cache Status: Unknown
+        Mode: Unknown
+        Sub OEM ID: Unknown
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot: N/A
+        On Board Memory Present: Unknown
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-1/blade-2/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model: UCSB-MRAID12G
+        PCI Addr: 01:00.0
+        HW Revision: 0
+        HW Rev: C0
+        Serial: LSV203101NT
+        Vendor: Cisco Systems Inc
+        Raid Support: RAID0, RAID1, RAID10
+        JBOD Mode: Enabled
+        Rebuild Rate: 30
+        Controller Status: Optimal
+        OOB Interface Supported: Yes
+        Pinned Cache Status: Disabled
+        Mode: Unknown
+        Sub OEM ID: 0
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot: SAS
+        On Board Memory Present: No
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-1/blade-3/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model: UCSB-MRAID12G
+        PCI Addr: 01:00.0
+        HW Revision: 0
+        HW Rev: C0
+        Serial: LSV203101OC
+        Vendor: Cisco Systems Inc
+        Raid Support: RAID0, RAID1, RAID10
+        JBOD Mode: Enabled
+        Rebuild Rate: 30
+        Controller Status: Optimal
+        OOB Interface Supported: Yes
+        Pinned Cache Status: Disabled
+        Mode: RAID
+        Sub OEM ID: 0
+        Supported Strip Sizes: 64KB
+        Default Strip Size: 64KB
+        PCI Slot:
+        On Board Memory Present: Yes
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Modify,Set Suboem,Get Suboem,Unpin Cache,Get Tty Log,Ctlr Shutdown,Set Time Secs,Get Time Secs,Get Phy Errors,Get Pinned List,Clear Boot Drive,Clear All Config,Update Boot Drive,Ctlr Lock Operation,Set Factory Defaults,Get Foreign Configuration,Clear Foreign Configuration,Import Foreign Configuration
+        Supported Disk Operations: Remove,Set State,Make Ghsp,Make Dhsp,Remove Hsp,Make Online,Locate Stop,Make Offline,Locate Start,Start Rebuild,Cancel Rebuild,Set Boot Drive,Get Phy Errors,Get Pd Progress,Prepare To Remove,Smart Ssd Support,Clear Secure Drive,Set Rebuild Status,Update Lrop Status,Set Copyback Status,Undo Prepare To Remove,Enable Security On Jbod,Get Foreign Configuration,Clear Foreign Configuration,Import Foreign Configuration,Clear Secure Foreign Config Drive
+        Supported Virtual Drive Operations: Deleted,Set Changed,Get Maxsize,Set Hidden Op,Set Cc Status,Unpin Cache Op,Get Disk Group,Carve Operation,Clear Hidden Op,Get Ld Progress,Stop Patrol Read,Create Operation,Modify Operation,Delete Operation,Start Patrol Read,Secure Drive Group,Update Lrop Status,Start Initialization,Start Reconstruction,Cancel Initialization,Get Reconstruction Info,Start Check Consistency,Set Boot Drive Operation,Cancel Check Consistency,Set Initialization Status,Set Reconstruction Status
+        Supported RAID Battery Operations: Enable Learn,Disable Learn,Start Learn Cycle
+
+    Storage Controller: sys/chassis-1/blade-3/board/storage-PT-2:
+        ID: 2
+        Type: PT
+        Model: UCSB-LSTOR-PT
+        PCI Addr:
+        HW Revision: 0
+        HW Rev:
+        Serial: FCH20167HKY
+        Vendor: Cisco Systems Inc
+        Raid Support:
+        JBOD Mode: Unknown
+        Rebuild Rate: N/A
+        Controller Status: Unknown
+        OOB Interface Supported: No
+        Pinned Cache Status: Unknown
+        Mode: Unknown
+        Sub OEM ID: Unknown
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot: N/A
+        On Board Memory Present: Unknown
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-1/blade-7/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model: MegaRAID SAS-3 3008 [Fury]
+        PCI Addr: 03:00.0
+        HW Revision: 0
+        HW Rev: C0
+        Serial:
+        Vendor: LSI Logic   Symbios Logic
+        Raid Support: RAID0, RAID1
+        JBOD Mode: Enabled
+        Rebuild Rate: 30
+        Controller Status: Optimal
+        OOB Interface Supported: Yes
+        Pinned Cache Status: Disabled
+        Mode: Unknown
+        Sub OEM ID: 0
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot: SAS
+        On Board Memory Present: No
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-1/blade-7/board/storage-SAS-4:
+        ID: 4
+        Type: SAS
+        Model: MegaRAID SAS-3 3008 [Fury]
+        PCI Addr: 131:00.0
+        HW Revision: 0
+        HW Rev: C0
+        Serial: FW-ADRHAFLN5SBWR
+        Vendor: LSI Logic   Symbios Logic
+        Raid Support: RAID0, RAID1
+        JBOD Mode: Enabled
+        Rebuild Rate: 30
+        Controller Status: Optimal
+        OOB Interface Supported: Yes
+        Pinned Cache Status: Disabled
+        Mode: Unknown
+        Sub OEM ID: 0
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot: SAS
+        On Board Memory Present: No
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Local Disk: 1:
+        Model:
+        Vendor:
+        HW Rev: 0
+        Serial:
+        Vendor Description:
+
+        Block Size: Unknown
+        Blocks: Unknown
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: Not Applicable
+        Connection Protocol: Unspecified
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: Unspecified
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: No
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: Not Applicable
+        Physical Block Size: Unknown
+        Device Version:
+        Bootable: Unknown
+
+    Storage Local Disk: 2:
+        Model:
+        Vendor:
+        HW Rev: 0
+        Serial:
+        Vendor Description:
+
+        Block Size: Unknown
+        Blocks: Unknown
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: Not Applicable
+        Connection Protocol: Unspecified
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: Unspecified
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: No
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: Not Applicable
+        Physical Block Size: Unknown
+        Device Version:
+        Bootable: Unknown
+
+    Storage Local Disk: 1:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421T9YY0000M6485TE6
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583983104
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285148
+        Connection Protocol: SAS
+        Drive State: Online
+        Power State: Active
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286102
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 2:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421TD5T0000K647K3RB
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583983104
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285148
+        Connection Protocol: SAS
+        Drive State: Online
+        Power State: Active
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286102
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 1:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421TA840000K6489EHG
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583981056
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285147
+        Connection Protocol: SAS
+        Drive State: Online
+        Power State: Active
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286101
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 2:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421T9VE0000M6485NPK
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583981056
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285147
+        Connection Protocol: SAS
+        Drive State: Online
+        Power State: Active
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286101
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 3:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421T9ZV0000M6485T6F
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583981056
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285147
+        Connection Protocol: SAS
+        Drive State: Online
+        Power State: Active
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286101
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 4:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421TAEX0000M6488AZ6
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583981056
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285147
+        Connection Protocol: SAS
+        Drive State: Online
+        Power State: Active
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286101
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 1:
+        Model: AL14SEB030N
+        Vendor: TOSHIBA
+        HW Rev: 0
+        Serial: 37D0A0R6F8KC
+        Vendor Description: Toshiba
+
+        Block Size: 512
+        Blocks: 583983104
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285148
+        Connection Protocol: SAS
+        Drive State: Unconfigured Good
+        Power State: Powersave
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286102
+        Physical Block Size: Unknown
+        Device Version: 5704
+        Bootable: False
+
+    Storage Local Disk: 2:
+        Model: ST300MM0008
+        Vendor: SEAGATE
+        HW Rev: 0
+        Serial: S421TCCL0000M6485TQK
+        Vendor Description: Seagate Technology
+
+        Block Size: 512
+        Blocks: 583983104
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 285148
+        Connection Protocol: SAS
+        Drive State: Unconfigured Good
+        Power State: Powersave
+        Link Speed: 12 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-HD300G10K12G
+        VID: V01
+        Product Name: 300GB 12G SAS 10K RPM SFF HDD
+        Technology: HDD
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Direct Attached
+        Raw Size: 286102
+        Physical Block Size: Unknown
+        Device Version: N003
+        Bootable: False
+
+    Storage Local Disk: 3:
+        Model:
+        Vendor:
+        HW Rev: 0
+        Serial:
+        Vendor Description:
+
+        Block Size: Unknown
+        Blocks: Unknown
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Missing
+        Size: Not Applicable
+        Connection Protocol: Unspecified
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: Unspecified
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: Not Applicable
+        Physical Block Size: Unknown
+        Device Version:
+        Bootable: Unknown
+
+    Storage Local Disk: 4:
+        Model:
+        Vendor:
+        HW Rev: 0
+        Serial:
+        Vendor Description:
+
+        Block Size: Unknown
+        Blocks: Unknown
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Missing
+        Size: Not Applicable
+        Connection Protocol: Unspecified
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: Unspecified
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: Not Applicable
+        Physical Block Size: Unknown
+        Device Version:
+        Bootable: Unknown
+
+    Storage Virtual Drive: 0:
+        Type: RAID 1 Mirrored
+        Block Size: 512
+        Blocks: 583983104
+        Operability: Operable
+        Presence: Equipped
+        Size: 285148
+        Lifecycle: Allocated
+        Drive State: Optimal
+        Strip Size (KB): 64
+        Access Policy: Read Write
+        Read Policy: Normal
+        Configured Write Cache Policy: Write Through
+        Actual Write Cache Policy: Write Through
+        IO Policy: Direct
+        Drive Cache: No Change
+        Bootable: True
+        Oper Device ID: 0
+        Config State: Orphaned
+        Deploy Action: No Action
+        Oob Interface Supported: Yes
+        Admin State: Undefined
+        Name:
+        Name:
+        Change Qualifier: No Change
+        Service Profile Lun Reference:
+        Assigned To Server:
+        Available Size on Disk Group (MB): 0
+        Unique Identifier: dbe5d542-113a-47fa-a7bf-f270fd0fc4d4
+    Storage Virtual Drive: 0:
+        Type: RAID 10 Mirrored And Striped
+        Block Size: 512
+        Blocks: 1167966208
+        Operability: Operable
+        Presence: Equipped
+        Size: 570296
+        Lifecycle: Allocated
+        Drive State: Optimal
+        Strip Size (KB): 64
+        Access Policy: Read Write
+        Read Policy: Normal
+        Configured Write Cache Policy: Write Through
+        Actual Write Cache Policy: Write Through
+        IO Policy: Direct
+        Drive Cache: No Change
+        Bootable: True
+        Oper Device ID: 0
+        Config State: Orphaned
+        Deploy Action: No Action
+        Oob Interface Supported: Yes
+        Admin State: Undefined
+        Name:
+        Name: LUN1
+        Change Qualifier: No Change
+        Service Profile Lun Reference:
+        Assigned To Server:
+        Available Size on Disk Group (MB): 0
+        Unique Identifier: 843378c2-0360-4d72-8fd2-7913bcb9d1df
+    Storage VD Membership:1:
+        Role: Normal
+        Span Id (RAID levels 10, 50, 60): Unspecified
+        Presence: Equipped
+        Oper Qualifier Reason: N/A
+
+    Storage VD Membership:2:
+        Role: Normal
+        Span Id (RAID levels 10, 50, 60): Unspecified
+        Presence: Equipped
+        Oper Qualifier Reason: N/A
+
+    Storage VD Membership:1:
+        Role: Normal
+        Span Id (RAID levels 10, 50, 60): Unspecified
+        Presence: Equipped
+        Oper Qualifier Reason: N/A
+
+    Storage VD Membership:2:
+        Role: Normal
+        Span Id (RAID levels 10, 50, 60): Unspecified
+        Presence: Equipped
+        Oper Qualifier Reason: N/A
+
+    Storage VD Membership:3:
+        Role: Normal
+        Span Id (RAID levels 10, 50, 60): Unspecified
+        Presence: Equipped
+        Oper Qualifier Reason: N/A
+
+    Storage VD Membership:4:
+        Role: Normal
+        Span Id (RAID levels 10, 50, 60): Unspecified
+        Presence: Equipped
+        Oper Qualifier Reason: N/A
+
+
+Chassis 2:
+    Servers:
+        Server 2/1:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V02
+            Equipped Serial (SN): FCH1617708D
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V02
+            Acknowledged Serial (SN): FCH1617708D
+            Acknowledged Memory (MB): 0
+            Acknowledged Effective Memory (MB): 0
+            Acknowledged Cores: 0
+            Acknowledged Adapters: 1
+
+        Server 2/2:
+            Equipped Product Name: Cisco UCS B200 M3
+            Equipped PID: UCSB-B200-M3
+            Equipped VID: V03
+            Equipped Serial (SN): FCH16387AGS
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M3
+            Acknowledged PID: UCSB-B200-M3
+            Acknowledged VID: V03
+            Acknowledged Serial (SN): FCH16387AGS
+            Acknowledged Memory (MB): 8192
+            Acknowledged Effective Memory (MB): 8192
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+
+        Server 2/3:
+            Equipped Product Name: Cisco UCS B200 M4
+            Equipped PID: UCSB-B200-M4
+            Equipped VID: V02
+            Equipped Serial (SN): FCH21077WWX
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M4
+            Acknowledged PID: UCSB-B200-M4
+            Acknowledged VID: V02
+            Acknowledged Serial (SN): FCH21077WWX
+            Acknowledged Memory (MB): 32768
+            Acknowledged Effective Memory (MB): 32768
+            Acknowledged Cores: 16
+            Acknowledged Adapters: 1
+
+        Server 2/4:
+            Equipped Product Name: Cisco UCS B200 M5 2 Socket Blade Server
+            Equipped PID: UCSB-B200-M5
+            Equipped VID: V07
+            Equipped Serial (SN): FCH23147ES6
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M5 2 Socket Blade Server
+            Acknowledged PID: UCSB-B200-M5
+            Acknowledged VID: V07
+            Acknowledged Serial (SN): FCH23147ES6
+            Acknowledged Memory (MB): 131072
+            Acknowledged Effective Memory (MB): 131072
+            Acknowledged Cores: 16
+            Acknowledged Adapters: 1
+
+        Server 2/5:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Empty
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+        Server 2/6:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Empty
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+        Server 2/7:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Empty
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+        Server 2/8:
+            Equipped Product Name:
+            Equipped PID:
+            Equipped VID:
+            Equipped Serial (SN):
+            Slot Status: Empty
+            Acknowledged Product Name:
+            Acknowledged PID:
+            Acknowledged VID:
+            Acknowledged Serial (SN):
+            Acknowledged Memory (MB):
+            Acknowledged Effective Memory (MB):
+            Acknowledged Cores:
+            Acknowledged Adapters:
+
+    PSU 1:
+        Presence: Equipped
+        Product Name: Platinum II AC Power Supply for UCS 5108 Chassis
+        PID: UCSB-PSU-2500ACDV
+        VID: V01
+        Vendor: Cisco Systems Inc
+        Serial (SN): AZS18160C9F
+        HW Revision: 0
+
+    PSU 2:
+        Presence: Equipped
+        Product Name: Platinum II AC Power Supply for UCS 5108 Chassis
+        PID: UCSB-PSU-2500ACDV
+        VID: V01
+        Vendor: Cisco Systems Inc
+        Serial (SN): AZS18160C8M
+        HW Revision: 0
+
+    PSU 3:
+        Presence: Equipped
+        Product Name: Platinum II AC Power Supply for UCS 5108 Chassis
+        PID: UCSB-PSU-2500ACDV
+        VID: V01
+        Vendor: Cisco Systems Inc
+        Serial (SN): AZS18160C9C
+        HW Revision: 0
+
+    PSU 4:
+        Presence: Missing
+        Product Name:
+        PID:
+        VID:
+        Vendor:
+        Serial (SN):
+        HW Revision: 0
+
+    Fan Modules:
+        Tray 1 Module 1:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG161602P1 0
+                     2 N20-FAN5     Cisco Systems I NWG161602P1 0
+
+        Tray 1 Module 2:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG161603K4 0
+                     2 N20-FAN5     Cisco Systems I NWG161603K4 0
+
+        Tray 1 Module 3:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG1616031W 0
+                     2 N20-FAN5     Cisco Systems I NWG1616031W 0
+
+        Tray 1 Module 4:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG161602AA 0
+                     2 N20-FAN5     Cisco Systems I NWG161602AA 0
+
+        Tray 1 Module 5:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG161603KF 0
+                     2 N20-FAN5     Cisco Systems I NWG161603KF 0
+
+        Tray 1 Module 6:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG161603CW 0
+                     2 N20-FAN5     Cisco Systems I NWG161603CW 0
+
+        Tray 1 Module 7:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG16160349 0
+                     2 N20-FAN5     Cisco Systems I NWG16160349 0
+
+        Tray 1 Module 8:
+            Presence: Equipped
+            ID         PID          Vendor          Serial (SN) HW Revision
+            ---------- ------------ --------------- ----------- -----------
+                     1 N20-FAN5     Cisco Systems I NWG161603D0 0
+                     2 N20-FAN5     Cisco Systems I NWG161603D0 0
+
+    IOCard 1:
+        Side: Left
+        Fabric ID: A
+        Product Name: Cisco UCS 2204XP
+        PID: UCS-IOM-2204XP
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH1851J1TJ
+        HW Revision: 0
+
+    IOCard 2:
+        Side: Right
+        Fabric ID: B
+        Product Name: Cisco UCS 2204XP
+        PID: UCS-IOM-2204XP
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH1851J1C4
+        HW Revision: 0
+
+    Storage Controller 1
+    Storage Controller 1
+    Storage Controller 1
+    Storage Controller 1
+    Fabric Facing Interfaces:
+
+        Slot Id: 1
+        Port Id: 1
+        Peer Slot Id: 1
+        Peer Port Id: 3
+        Fabric ID: A
+        Ack: Ok
+        Discovery: Present
+        Xcvr: H10GB CU3M
+        Xcvr Vendor: CISCO-MOLEX
+        Xcvr Model: 74752-9742
+        Xcvr Serial: MOC2020A19G
+
+
+        Slot Id: 2
+        Port Id: 1
+        Peer Slot Id: 1
+        Peer Port Id: 3
+        Fabric ID: B
+        Ack: Ok
+        Discovery: Present
+        Xcvr: H10GB CU3M
+        Xcvr Vendor: CISCO-MOLEX
+        Xcvr Model: 74752-9742
+        Xcvr Serial: MOC2020A135
+
+    Locale A:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Left
+        Slot Id: 2
+        Locale: Server
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Right
+        Slot Id: 2
+        Locale: Server
+        Type: Lan
+
+    Locale A:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Left
+        Slot Id: 3
+        Locale: Server
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Right
+        Slot Id: 3
+        Locale: Server
+        Type: Lan
+
+    Locale A:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Left
+        Slot Id: 4
+        Locale: Server
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux To Host
+        Transport: Ether
+        Side: Right
+        Slot Id: 4
+        Locale: Server
+        Type: Lan
+
+    Locale A:
+        Name:
+        C Type: Mux Fabricpc
+        Transport: Ether
+        Side: Left
+        Slot Id: 1
+        Locale: Chassis
+        Type: Lan
+
+    Locale B:
+        Name:
+        C Type: Mux Fabricpc
+        Transport: Ether
+        Side: Right
+        Slot Id: 2
+        Locale: Chassis
+        Type: Lan
+
+    Host Port Channels:
+
+        Port Channel Id: 1327
+        Fabric ID: A
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1328
+        Fabric ID: A
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1330
+        Fabric ID: A
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1326
+        Fabric ID: B
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1329
+        Fabric ID: B
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+
+        Port Channel Id: 1331
+        Fabric ID: B
+        Oper State: Failed
+        Operational Speed: 10 Gbps
+        State Reason: No operational members
+
+    Storage Controller: sys/chassis-2/blade-1/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model:
+        PCI Addr:
+        HW Revision: 0
+        HW Rev:
+        Serial:
+        Vendor:
+        Raid Support:
+        JBOD Mode: Unknown
+        Rebuild Rate: N/A
+        Controller Status: Unknown
+        OOB Interface Supported: No
+        Pinned Cache Status: Unknown
+        Mode: Unknown
+        Sub OEM ID: Unknown
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot: N/A
+        On Board Memory Present: Unknown
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-2/blade-2/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model: LSI MegaRAID SAS 2004 ROMB
+        PCI Addr: 01:00.0
+        HW Revision: 0
+        HW Rev: B2
+        Serial: FW-ABRLESUKA1BFM
+        Vendor: LSI Logic   Symbios Logic
+        Raid Support: RAID0, RAID1
+        JBOD Mode: Enabled
+        Rebuild Rate: 30
+        Controller Status: Optimal
+        OOB Interface Supported: Yes
+        Pinned Cache Status: Disabled
+        Mode: RAID
+        Sub OEM ID: 0
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot:
+        On Board Memory Present: Yes
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-2/blade-3/board/storage-SAS-1:
+        ID: 1
+        Type: SAS
+        Model: UCSB-MRAID12G
+        PCI Addr: 01:00.0
+        HW Revision: 0
+        HW Rev: C0
+        Serial: LSK205001U8
+        Vendor: Cisco Systems Inc
+        Raid Support: RAID0, RAID1, RAID10
+        JBOD Mode: Enabled
+        Rebuild Rate: 30
+        Controller Status: Optimal
+        OOB Interface Supported: Yes
+        Pinned Cache Status: Disabled
+        Mode: RAID
+        Sub OEM ID: 0
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot:
+        On Board Memory Present: Yes
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Controller: sys/chassis-2/blade-4/board/storage-PCH-1:
+        ID: 1
+        Type: PCH
+        Model: Lewisburg SSATA Controller [AHCI mode]
+        PCI Addr: 00:17.5
+        HW Revision: 0
+        HW Rev: N/A
+        Serial: LSIROMB-0
+        Vendor: Intel Corp.
+        Raid Support: RAID0, RAID1
+        JBOD Mode: Unknown
+        Rebuild Rate: N/A
+        Controller Status: Unknown
+        OOB Interface Supported: No
+        Pinned Cache Status: Unknown
+        Mode: Unknown
+        Sub OEM ID: Unknown
+        Supported Strip Sizes: Unknown
+        Default Strip Size: Unknown
+        PCI Slot:
+        On Board Memory Present: No
+        On Board Memory Size (MB): Unknown
+        Supported Controller Operations: Unknown
+        Supported Disk Operations: Unknown
+        Supported Virtual Drive Operations: Unknown
+        Supported RAID Battery Operations: Unknown
+
+    Storage Local Disk: 1:
+        Model:
+        Vendor:
+        HW Rev: 0
+        Serial:
+        Vendor Description:
+
+        Block Size: Unknown
+        Blocks: Unknown
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: Not Applicable
+        Connection Protocol: Unspecified
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: Unspecified
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: No
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: Not Applicable
+        Physical Block Size: Unknown
+        Device Version:
+        Bootable: Unknown
+
+    Storage Local Disk: 2:
+        Model:
+        Vendor:
+        HW Rev: 0
+        Serial:
+        Vendor Description:
+
+        Block Size: Unknown
+        Blocks: Unknown
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: Not Applicable
+        Connection Protocol: Unspecified
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: Unspecified
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: No
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: Not Applicable
+        Physical Block Size: Unknown
+        Device Version:
+        Bootable: Unknown
+
+    Storage Local Disk: 1:
+        Model: CBRBA073C3ETS0 N
+        Vendor: IBM-ESXS
+        HW Rev: 0
+        Serial: P2WVMKXA
+        Vendor Description:
+
+        Block Size: 512
+        Blocks: 140621824
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 68663
+        Connection Protocol: SAS
+        Drive State: Jbod
+        Power State: Active
+        Link Speed: 3 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Expander Attached
+        Raw Size: 70005
+        Physical Block Size: Unknown
+        Device Version: C49B
+        Bootable: False
+
+    Storage Local Disk: 2:
+        Model: ST973401SS
+        Vendor: IBM-ESXS
+        HW Rev: 0
+        Serial: 3LB03P4300008521D6ZQ
+        Vendor Description:
+
+        Block Size: 512
+        Blocks: 140621824
+        Operability: Operable
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 68663
+        Connection Protocol: SAS
+        Drive State: Jbod
+        Power State: Active
+        Link Speed: 3 Gbps
+        Device Type: HDD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID:
+        VID:
+        Product Name:
+        Technology:
+        Oob Interface Supported: Yes
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Expander Attached
+        Raw Size: 70005
+        Physical Block Size: Unknown
+        Device Version: B51C
+        Bootable: False
+
+    Storage Local Disk: 1:
+        Model: Micron_5100_MTFDDAV240TCB
+        Vendor: ATA
+        HW Rev: 0
+        Serial: MSA231304ES
+        Vendor Description: Micron
+
+        Block Size: 512
+        Blocks: 468860928
+        Operability: N/A
+        Oper Qualifier Reason: N/A
+        Presence: Equipped
+        Size: 228936
+        Connection Protocol: SATA
+        Drive State: Unknown
+        Power State: Unknown
+        Link Speed: Unknown
+        Device Type: SSD
+        Admin State Type: N/A
+        Thermal: N/A
+        PID: UCS-M2-240GB
+        VID: V01
+        Product Name: 240GB M.2 6G SATA SSD
+        Technology: SSD
+        Oob Interface Supported: No
+        Admin Virtual Drive ID: Unspecified
+        Enclosure Association Type: Unknown
+        Raw Size: 228936
+        Physical Block Size: Unknown
+        Device Version: D0MU054
+        Bootable: Unknown
+

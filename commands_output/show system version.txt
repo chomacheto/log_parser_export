@@ -1,0 +1,12 @@
+`show system version`
+UCSM:
+    Running-Vers: 3.2(3l)
+    Package-Vers: 3.2(3l)A
+    Activate-Status: Ready
+
+UCSM Service Pack:
+    Running-Vers: 3.2(3)SP0(Default)
+    Running-Modules:
+    Package-Vers:
+    Activate-Status: Ready
+

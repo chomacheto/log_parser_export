@@ -1,0 +1,64 @@
+`show psu detail`
+
+PSU:
+    PSU: 1
+    Overall Status: Operable
+    Operability: Operable
+    Power State: On
+    Presence: Equipped
+    Product Name: AC PSU for UCS-FI-6248UP
+    PID: UCS-PSU-6248UP-AC
+    VID: V00
+    Part Number: UCS-PSU-6248UP-AC
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): ART1620X00U
+    HW Revision: 0
+    Firmware Version: N/A
+    Current Task:
+
+    PSU: 2
+    Overall Status: Operable
+    Operability: Operable
+    Power State: On
+    Presence: Equipped
+    Product Name: AC PSU for UCS-FI-6248UP
+    PID: UCS-PSU-6248UP-AC
+    VID: V00
+    Part Number: UCS-PSU-6248UP-AC
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): ART1619X04Y
+    HW Revision: 0
+    Firmware Version: N/A
+    Current Task:
+`show psu detail`
+
+PSU:
+    PSU: 1
+    Overall Status: Operable
+    Operability: Operable
+    Power State: On
+    Presence: Equipped
+    Product Name: AC PSU for UCS-FI-6248UP
+    PID: UCS-PSU-6248UP-AC
+    VID: V00
+    Part Number: UCS-PSU-6248UP-AC
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): ART1620X00S
+    HW Revision: 0
+    Firmware Version: N/A
+    Current Task:
+
+    PSU: 2
+    Overall Status: Operable
+    Operability: Operable
+    Power State: On
+    Presence: Equipped
+    Product Name: AC PSU for UCS-FI-6248UP
+    PID: UCS-PSU-6248UP-AC
+    VID: V00
+    Part Number: UCS-PSU-6248UP-AC
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): ART1619X043
+    HW Revision: 0
+    Firmware Version: N/A
+    Current Task:

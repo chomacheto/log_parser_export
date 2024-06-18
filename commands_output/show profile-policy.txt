@@ -1,0 +1,6 @@
+`show profile-policy`
+
+Global Power Profiling Policy:
+    Power Profiling
+    ---------------
+    No

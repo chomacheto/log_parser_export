@@ -1,0 +1,1740 @@
+`show server inventory expand`
+Server 2/4:
+    Equipped Product Name: Cisco UCS B200 M5 2 Socket Blade Server
+    Equipped PID: UCSB-B200-M5
+    Equipped VID: V07
+    Equipped Serial (SN): FCH23147ES6
+    Slot Status: Equipped
+    Acknowledged Product Name: Cisco UCS B200 M5 2 Socket Blade Server
+    Acknowledged PID: UCSB-B200-M5
+    Acknowledged VID: V07
+    Acknowledged Serial (SN): FCH23147ES6
+    Acknowledged Memory (MB): 131072
+    Acknowledged Effective Memory (MB): 131072
+    Acknowledged Cores: 16
+    Acknowledged Adapters: 1
+
+    Bios:
+        Model: UCSB-B200-M5
+        Revision: 0
+        Serial:
+        Vendor: Cisco Systems, Inc.
+
+    Motherboard:
+        Product Name: Cisco UCS B200 M5 2 Socket Blade Server
+        PID: UCSB-B200-M5
+        VID: V01
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH23147ES6
+        HW Revision: 0
+
+        Array 1:
+            DIMM Location   Presence         Overall Status           Type         Capacity (MB) Clock
+            ---- ---------- ---------------- ------------------------ ------------ ------------- -----
+               1 DIMM_A1    Equipped         Operable                 DDR4         32768         2666
+               2 DIMM_A2    Missing          Removed                  Undisc       Unknown       Unknown
+               3 DIMM_B1    Equipped         Operable                 DDR4         32768         2666
+               4 DIMM_B2    Missing          Removed                  Undisc       Unknown       Unknown
+               5 DIMM_C1    Missing          Removed                  Undisc       Unknown       Unknown
+               6 DIMM_C2    Missing          Removed                  Undisc       Unknown       Unknown
+               7 DIMM_D1    Missing          Removed                  Undisc       Unknown       Unknown
+               8 DIMM_D2    Missing          Removed                  Undisc       Unknown       Unknown
+               9 DIMM_E1    Missing          Removed                  Undisc       Unknown       Unknown
+              10 DIMM_E2    Missing          Removed                  Undisc       Unknown       Unknown
+              11 DIMM_F1    Missing          Removed                  Undisc       Unknown       Unknown
+              12 DIMM_F2    Missing          Removed                  Undisc       Unknown       Unknown
+              13 DIMM_G1    Equipped         Operable                 DDR4         32768         2666
+              14 DIMM_G2    Missing          Removed                  Undisc       Unknown       Unknown
+              15 DIMM_H1    Equipped         Operable                 DDR4         32768         2666
+              16 DIMM_H2    Missing          Removed                  Undisc       Unknown       Unknown
+              17 DIMM_J1    Missing          Removed                  Undisc       Unknown       Unknown
+              18 DIMM_J2    Missing          Removed                  Undisc       Unknown       Unknown
+              19 DIMM_K1    Missing          Removed                  Undisc       Unknown       Unknown
+              20 DIMM_K2    Missing          Removed                  Undisc       Unknown       Unknown
+              21 DIMM_L1    Missing          Removed                  Undisc       Unknown       Unknown
+              22 DIMM_L2    Missing          Removed                  Undisc       Unknown       Unknown
+              23 DIMM_M1    Missing          Removed                  Undisc       Unknown       Unknown
+              24 DIMM_M2    Missing          Removed                  Undisc       Unknown       Unknown
+
+        CPUs:
+            ID: 1
+            Presence: Equipped
+            Architecture: Xeon
+            Socket: CPU1
+            Cores: 8
+            Speed (GHz): 1.700000
+            Stepping: 4
+            Product Name: Intel(R) Xeon(R) Bronze 3106
+            PID: UCS-CPU-3106
+            VID: V01
+            Vendor: Intel(R) Corporation
+            HW Revision: 0
+
+            ID: 2
+            Presence: Equipped
+            Architecture: Xeon
+            Socket: CPU2
+            Cores: 8
+            Speed (GHz): 1.700000
+            Stepping: 4
+            Product Name: Intel(R) Xeon(R) Bronze 3106
+            PID: UCS-CPU-3106
+            VID: V01
+            Vendor: Intel(R) Corporation
+            HW Revision: 0
+
+        RAID Controller 1:
+            Type: PCH
+            Vendor: Intel Corp.
+            Model: Lewisburg SSATA Controller [AHCI mode]
+            Serial: LSIROMB-0
+            HW Revision: N/A
+            PCI Addr: 00:17.5
+            Raid Support: RAID0, RAID1
+            JBOD Mode: Unknown
+            OOB Interface Supported: No
+            Pinned Cache Status: Unknown
+            Mode: Unknown
+            Sub OEM ID: Unknown
+            Supported Strip Sizes: Unknown
+            Default Strip Size: Unknown
+            PCI Slot:
+            On Board Memory Present: No
+            On Board Memory Size (MB): Unknown
+            Supported Controller Operations: Unknown
+            Supported Disk Operations: Unknown
+            Supported Virtual Drive Operations: Unknown
+            Supported RAID Battery Operations: Unknown
+
+            Local Disk 1:
+                Product Name: 240GB M.2 6G SATA SSD
+                PID: UCS-M2-240GB
+                VID: V01
+                Vendor: ATA
+                Model: Micron_5100_MTFDDAV240TCB
+                Vendor Description: Micron
+                Serial: MSA231304ES
+                HW Rev: 0
+                Block Size: 512
+                Blocks: 468860928
+                Operability: N/A
+                Oper Qualifier Reason: N/A
+                Presence: Equipped
+                Size: 228936
+                Device Type: SSD
+                Thermal: N/A
+
+        Adapter:
+
+        Adapter PID          Vendor            Serial       Overall Status
+        ------- ------------ ----------------- ------------ --------------
+              1 UCSB-MLOM-40G-03
+                             Cisco Systems Inc FLM23130BT7  Operable
+
+    Mini Storage:
+        ID: 1
+        Type: M2
+        Model: UCS-MSTOR-M2
+        Vendor: Cisco Systems Inc
+        HW Rev: 0
+        Serial: FCH23137L1W
+        VID: V01
+        Part Number: 73-17926-05
+
+        Referenced Controller:
+            ID: 1
+            Type: PCH
+
+
+
+
+`show server status detail`
+Server 2/4:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+
+`show server health status detail`
+Server 2/4:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 1:
+    Health status severity: Cleared
+    Health status qualifier:
+
+Server 3:
+    Health status severity: Cleared
+    Health status qualifier:
+
+`show server memory detail`
+Server 2/4:
+    Array 1:
+        CPU ID: 1
+        Current Capacity (MB): 131072
+        Error Correction: Undisc
+        Max Capacity (MB): 9437184
+        Max Devices: 24
+        Populated: 4
+
+        DIMMS:
+
+        ID 1:
+            Location: DIMM_A1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 32GB DDR4-2666-MHz RDIMM/PC4-21300/dual rank/x4/1.2v
+            PID: UCS-MR-X32G2RS-H
+            VID: V01
+            Vendor: 0xAD00
+            Vendor Description: Hynix
+            Vendor Part Number: HMA84GR7AFR4N-VK
+            Vendor Serial (SN): 828B8773
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 32768
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 2:
+            Location: DIMM_A2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 3:
+            Location: DIMM_B1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 32GB DDR4-2666-MHz RDIMM/PC4-21300/dual rank/x4/1.2v
+            PID: UCS-MR-X32G2RS-H
+            VID: V01
+            Vendor: 0xAD00
+            Vendor Description: Hynix
+            Vendor Part Number: HMA84GR7AFR4N-VK
+            Vendor Serial (SN): 828B8858
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 32768
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 4:
+            Location: DIMM_B2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 5:
+            Location: DIMM_C1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 6:
+            Location: DIMM_C2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 7:
+            Location: DIMM_D1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 8:
+            Location: DIMM_D2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 9:
+            Location: DIMM_E1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 10:
+            Location: DIMM_E2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 11:
+            Location: DIMM_F1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 12:
+            Location: DIMM_F2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 13:
+            Location: DIMM_G1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 32GB DDR4-2666-MHz RDIMM/PC4-21300/dual rank/x4/1.2v
+            PID: UCS-MR-X32G2RS-H
+            VID: V01
+            Vendor: 0xAD00
+            Vendor Description: Hynix
+            Vendor Part Number: HMA84GR7AFR4N-VK
+            Vendor Serial (SN): 828B87E2
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 32768
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 14:
+            Location: DIMM_G2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 15:
+            Location: DIMM_H1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 32GB DDR4-2666-MHz RDIMM/PC4-21300/dual rank/x4/1.2v
+            PID: UCS-MR-X32G2RS-H
+            VID: V01
+            Vendor: 0xAD00
+            Vendor Description: Hynix
+            Vendor Part Number: HMA84GR7AFR4N-VK
+            Vendor Serial (SN): 828B877A
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 32768
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 16:
+            Location: DIMM_H2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 17:
+            Location: DIMM_J1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 18:
+            Location: DIMM_J2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 19:
+            Location: DIMM_K1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 20:
+            Location: DIMM_K2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 21:
+            Location: DIMM_L1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 22:
+            Location: DIMM_L2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 23:
+            Location: DIMM_M1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 24:
+            Location: DIMM_M2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+Server 1:
+    Array 1:
+        CPU ID: 1
+        Current Capacity (MB): 131072
+        Error Correction: Undisc
+        Max Capacity (MB): 9437184
+        Max Devices: 24
+        Populated: 8
+
+        DIMMS:
+
+        ID 1:
+            Location: DIMM_A1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B66AC
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 2:
+            Location: DIMM_A2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 3:
+            Location: DIMM_B1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B7257
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 4:
+            Location: DIMM_B2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 5:
+            Location: DIMM_C1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 6:
+            Location: DIMM_C2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 7:
+            Location: DIMM_D1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B72D0
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 8:
+            Location: DIMM_D2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 9:
+            Location: DIMM_E1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B6368
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 10:
+            Location: DIMM_E2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 11:
+            Location: DIMM_F1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 12:
+            Location: DIMM_F2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 13:
+            Location: DIMM_G1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B6F73
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 14:
+            Location: DIMM_G2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 15:
+            Location: DIMM_H1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B636C
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 16:
+            Location: DIMM_H2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 17:
+            Location: DIMM_J1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 18:
+            Location: DIMM_J2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 19:
+            Location: DIMM_K1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B7225
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 20:
+            Location: DIMM_K2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 21:
+            Location: DIMM_L1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B724A
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 22:
+            Location: DIMM_L2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 23:
+            Location: DIMM_M1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 24:
+            Location: DIMM_M2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+Server 3:
+    Array 1:
+        CPU ID: 1
+        Current Capacity (MB): 131072
+        Error Correction: Undisc
+        Max Capacity (MB): 9437184
+        Max Devices: 24
+        Populated: 8
+
+        DIMMS:
+
+        ID 1:
+            Location: DIMM_A1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B72DB
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 2:
+            Location: DIMM_A2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 3:
+            Location: DIMM_B1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B72DA
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 4:
+            Location: DIMM_B2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 5:
+            Location: DIMM_C1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 6:
+            Location: DIMM_C2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 7:
+            Location: DIMM_D1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B6856
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 8:
+            Location: DIMM_D2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 9:
+            Location: DIMM_E1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B72D4
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 10:
+            Location: DIMM_E2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 11:
+            Location: DIMM_F1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 12:
+            Location: DIMM_F2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 13:
+            Location: DIMM_G1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B722F
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 14:
+            Location: DIMM_G2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 15:
+            Location: DIMM_H1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B72DC
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 16:
+            Location: DIMM_H2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 17:
+            Location: DIMM_J1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 18:
+            Location: DIMM_J2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 19:
+            Location: DIMM_K1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B72DD
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 20:
+            Location: DIMM_K2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 21:
+            Location: DIMM_L1
+            Presence: Equipped
+            Overall Status: Operable
+            Operability: Operable
+            Visibility: Yes
+            Product Name: 16GB DDR4-2666-MHz RDIMM/PC4-21300/single rank/x4/1.2v
+            PID: UCS-MR-X16G1RS-H
+            VID: V01
+            Vendor: 0x2C00
+            Vendor Description: Micron
+            Vendor Part Number: 18ASF2G72PZ-2G6D1
+            Vendor Serial (SN): F02B7238
+            HW Revision: 0
+            Form Factor: DIMM
+            Type: DDR4
+            Capacity (MB): 16384
+            Clock: 2666
+            Latency: 0.400000
+            Width: 64
+
+        ID 22:
+            Location: DIMM_L2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 23:
+            Location: DIMM_M1
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+        ID 24:
+            Location: DIMM_M2
+            Presence: Missing
+            Overall Status: Removed
+            Operability: N/A
+            Visibility: No
+            Product Name:
+            PID:
+            VID:
+            Vendor:
+            Vendor Description:
+            Vendor Part Number:
+            Vendor Serial (SN):
+            HW Revision: 0
+            Form Factor: Undisc
+            Type: Undisc
+            Capacity (MB): Unknown
+            Clock: Unknown
+            Latency: Unknown
+            Width: Unknown
+
+`show server environment`
+Server 2/4:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 1:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
+Server 3:
+    Overall Status: Unassociated
+    Operability: Operable
+    Oper Power: Off
+
